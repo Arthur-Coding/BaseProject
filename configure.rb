@@ -40,7 +40,7 @@ class XcodeProjectConfig
             Dir["**/*"].each do |f|
                 file_name = File.absolute_path f
                 unless File.directory? file_name
-                    content = File.read(file_name).force_encoding('UTF-8').encode('ascii', :invalid => :replace, :replace => '?', :undef => :replace).encode('UTF-8')
+                    content = File.read(file_name).force_encoding('UTF-8')
                     content.gsub!(overwrite, @project_name)
                     File.open(f, 'w') { |file| file.write content }
                 end
