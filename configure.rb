@@ -7,7 +7,7 @@ class XcodeProjectConfig
     def initialize(attributes = {})
         check_ruby_version
         @dev_mode = false
-        rename_files_and_folder
+        rename_files_and_folders
         remove_ci_tools
         remove_docs_and_config
         puts "All done, open up #{@project_name}.xcworkspace and make an app."
