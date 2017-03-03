@@ -7,22 +7,8 @@ class XcodeProjectConfig
     def initialize(attributes = {})
         check_ruby_version
         @dev_mode = false
-        puts "\nXcode iOS Project Configuration"
-        puts "-------------------------------\n"
-        puts "Please enter a new project name"
-        @project_name = gets
-        @project_name.chomp!
-        puts "new project name is #{@project_name}"
-        rename_files_and_folders
-        puts "Use ContiniOS Integration tooling? (y for yes)"
-        answer = gets
-        if (answer == "y")
-            puts "Install dependencies (xctool, imagemagick, ghostscript, rmagick, rake, paint, nomad-cli)? (y for yes)"
-            answer = gets
-            install_deps if ((answer == "y") or (answer == "yes"))
-            else
-            remove_ci_tools
-        end
+        rename_files_and_folder
+        remove_ci_tools
         remove_docs_and_config
         puts "All done, open up #{@project_name}.xcworkspace and make an app."
         puts "If you have other problems, please email to contact the author: ArthurShuai (email: zhixingui_liushuai@163.com)"
@@ -42,31 +28,14 @@ class XcodeProjectConfig
     end
 
     def rename_files_and_folders
-        # Initialization "overwrite", its corresponding value is meaningless
         overwrite = "APPNAME"
-        # File.basename(Dir.pwd,'.xcodeproj') Get ruby file under the suffix for xcodeproj file name
         Find.find(Dir.pwd) do |d|
             if d.include?(".xcodeproj")
                 overwrite = File.basename(d,'.xcodeproj')
                 break
             end
         end
-        # File.basename(Dir.pwd) Get the project folder name
-        parentFileName = File.basename(Dir.pwd)
-        if (parentFileName == overwrite)
-            puts "\nthe file name can't equal to project name, please change the file name!"
-            exit
-        end
-        if (@project_name == overwrite)
-            puts "\nthe new project name can't equal to now!"
-            exit
-        end
-        if (@project_name == parentFileName)
-            puts "\nthe new project name must be the same as the project folder name, please check the new project name!"
-            exit
-        end
-        # rename files and folders
-        puts "renaming files, folders and updating project settings..."
+        @project_name = File.basename(Dir.pwd)
         5.times do
             Dir["**/*"].each do |f|
                 file_name = File.absolute_path f
@@ -77,8 +46,6 @@ class XcodeProjectConfig
                 end
             end
         end
-
-        # rename files and folders
         5.times do
             Dir["**/*"].each do |f|
                 file_name = File.absolute_path f
@@ -90,17 +57,6 @@ class XcodeProjectConfig
 
     end
 
-    def install_deps
-        puts "installing dependencies, you may be asked for your password..."
-        system "brew install xctool"
-        system "brew install imagemagick"
-        system "brew install ghostscript"
-        system "sudo gem install rmagick"
-        system "sudo gem install rake"
-        system "sudo gem install paint"
-        system "sudo gem install nomad-cli"
-    end
-
     def remove_ci_tools
         system "rm -rf ContiniOSIntegration/" if File.exists? Dir.pwd + "/ContiniOSIntegration/"
     end
@@ -110,7 +66,6 @@ class XcodeProjectConfig
         puts "well, would have done if dev mode wasn't on" if @dev_mode
         if !@dev_mode
             system "rm configure.rb" if File.exists? Dir.pwd + "/configure.rb"
-#            system "rm -rf .git/" if File.exists? Dir.pwd + "/.git/"
             Dir["**/*"].each do |f|
                 file = File.absolute_path f
                 should_delete = file.include? "README"
