@@ -65,7 +65,7 @@ class XcodeProjectConfig
         puts "trashing unecessary files..."
         puts "well, would have done if dev mode wasn't on" if @dev_mode
         if !@dev_mode
-            system "rm configure.rb" if File.exists? Dir.pwd + "/configure.rb"
+            system "rm configure_projectName.rb" if File.exists? Dir.pwd + "/configure_projectName.rb"
             Dir["**/*"].each do |f|
                 file = File.absolute_path f
                 should_delete = file.include? "README"
