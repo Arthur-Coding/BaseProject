@@ -472,6 +472,7 @@
 				069D5D191E680AFE004CEFF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

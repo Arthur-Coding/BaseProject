@@ -1,5 +1,5 @@
 class XcodeProjectConfig
-
+    # 用于修改工程名
     require 'find'
 
     attr_accessor :project_name, :dev_mode
