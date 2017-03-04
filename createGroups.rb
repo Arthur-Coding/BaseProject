@@ -1,4 +1,3 @@
-system "gem install xcodeproj"
 require 'xcodeproj'
 
 project_name = File.basename(Dir.pwd)
