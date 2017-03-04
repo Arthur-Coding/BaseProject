@@ -1,4 +1,8 @@
-system "gem install xcodeproj"
+system "gem install CFPropertyList"
+system "gem install claide"
+system "gem install colored"
+system "gem install nanaimo"
+system "gen install xcodeproj"
 require 'xcodeproj'
 
 project_name = File.basename(Dir.pwd)
