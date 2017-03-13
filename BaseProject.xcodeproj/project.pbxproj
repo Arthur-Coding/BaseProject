@@ -11,6 +11,9 @@
 		062FA8581E76399B00B84E45 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8541E76399B00B84E45 /* UIViewController+HUD.m */; };
 		062FA85C1E763BC400B84E45 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85B1E763BC400B84E45 /* Account.m */; };
 		062FA8601E76439500B84E45 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85F1E76439500B84E45 /* Operation.m */; };
+		062FA87C1E7686C800B84E45 /* LSRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8771E7686C800B84E45 /* LSRootNavigationController.m */; };
+		062FA87D1E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8791E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m */; };
+		062FA87E1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA87B1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m */; };
 		069D5D051E680AFE004CEFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D041E680AFE004CEFF6 /* main.m */; };
 		069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D071E680AFE004CEFF6 /* AppDelegate.m */; };
 		069D5D0E1E680AFE004CEFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0C1E680AFE004CEFF6 /* Main.storyboard */; };
@@ -33,6 +36,12 @@
 		062FA85D1E763CED00B84E45 /* SDWebImageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageHeader.h; sourceTree = "<group>"; };
 		062FA85E1E76439500B84E45 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 		062FA85F1E76439500B84E45 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		062FA8761E7686C800B84E45 /* LSRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRootNavigationController.h; sourceTree = "<group>"; };
+		062FA8771E7686C800B84E45 /* LSRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRootNavigationController.m; sourceTree = "<group>"; };
+		062FA8781E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+LSMagicNavigationBar.h"; sourceTree = "<group>"; };
+		062FA8791E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+LSMagicNavigationBar.m"; sourceTree = "<group>"; };
+		062FA87A1E7686C800B84E45 /* UIViewController+LSRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LSRootNavigationController.h"; sourceTree = "<group>"; };
+		062FA87B1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LSRootNavigationController.m"; sourceTree = "<group>"; };
 		069D5D001E680AFE004CEFF6 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069D5D041E680AFE004CEFF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		069D5D061E680AFE004CEFF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,8 +88,22 @@
 				062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */,
 				062FA8531E76399B00B84E45 /* UIViewController+HUD.h */,
 				062FA8541E76399B00B84E45 /* UIViewController+HUD.m */,
+				062FA8751E7686C800B84E45 /* LSRootNavigationController */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		062FA8751E7686C800B84E45 /* LSRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				062FA8761E7686C800B84E45 /* LSRootNavigationController.h */,
+				062FA8771E7686C800B84E45 /* LSRootNavigationController.m */,
+				062FA8781E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.h */,
+				062FA8791E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m */,
+				062FA87A1E7686C800B84E45 /* UIViewController+LSRootNavigationController.h */,
+				062FA87B1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m */,
+			);
+			path = LSRootNavigationController;
 			sourceTree = "<group>";
 		};
 		069D5CF71E680AFE004CEFF6 = {
@@ -362,7 +385,10 @@
 				069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */,
 				062FA85C1E763BC400B84E45 /* Account.m in Sources */,
 				069D5D051E680AFE004CEFF6 /* main.m in Sources */,
+				062FA87E1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m in Sources */,
+				062FA87D1E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m in Sources */,
 				062FA8571E76399B00B84E45 /* MBProgressHUD+Add.m in Sources */,
+				062FA87C1E7686C800B84E45 /* LSRootNavigationController.m in Sources */,
 				062FA8601E76439500B84E45 /* Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

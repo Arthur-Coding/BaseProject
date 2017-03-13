@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "721D7761066F655BC960C6D18B08EC7723FA98CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "721D7761066F655BC960C6D18B08EC7723FA98CA" : 9223372036854775807,
+    "160ADBF48E7A83D03D97CEBA615987FFB541568E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8729CC41-0ED7-4B11-B000-CB68DF044230",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "721D7761066F655BC960C6D18B08EC7723FA98CA" : "BaseProject\/",
+    "160ADBF48E7A83D03D97CEBA615987FFB541568E" : "BaseProject\/BaseProject\/LSRootNavigationController\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BaseProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BaseProject.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Arthur-Coding\/LSRootNavigationController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "160ADBF48E7A83D03D97CEBA615987FFB541568E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Arthur-Coding\/BaseProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "721D7761066F655BC960C6D18B08EC7723FA98CA"
+    }
+  ]
+}
