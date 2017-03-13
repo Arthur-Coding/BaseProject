@@ -35,8 +35,6 @@ class XcodeProjectConfig
             end
         end
         @project_name = File.basename(Dir.pwd)
-        puts overwrite
-        puts "#{@project_name}"
         5.times do
             Dir["**/*"].each do |f|
                 file_name = File.absolute_path f
