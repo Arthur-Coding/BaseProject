@@ -2,5 +2,9 @@
 # platform :ios, '9.0'
 
 target 'BaseProject' do
-
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'MJRefresh'
+    pod 'IQKeyboardManager'
+    pod 'MBProgressHUD'
 end

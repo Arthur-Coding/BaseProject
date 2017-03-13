@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062FA8571E76399B00B84E45 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */; };
+		062FA8581E76399B00B84E45 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8541E76399B00B84E45 /* UIViewController+HUD.m */; };
+		062FA85C1E763BC400B84E45 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85B1E763BC400B84E45 /* Account.m */; };
+		062FA8601E76439500B84E45 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85F1E76439500B84E45 /* Operation.m */; };
 		069D5D051E680AFE004CEFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D041E680AFE004CEFF6 /* main.m */; };
 		069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D071E680AFE004CEFF6 /* AppDelegate.m */; };
 		069D5D0E1E680AFE004CEFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0C1E680AFE004CEFF6 /* Main.storyboard */; };
@@ -17,6 +21,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062FA8231E7633B000B84E45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		062FA8241E76348200B84E45 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		062FA8251E76355400B84E45 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		062FA8511E76399B00B84E45 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		062FA8531E76399B00B84E45 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		062FA8541E76399B00B84E45 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		062FA85A1E763BC400B84E45 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		062FA85B1E763BC400B84E45 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		062FA85D1E763CED00B84E45 /* SDWebImageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageHeader.h; sourceTree = "<group>"; };
+		062FA85E1E76439500B84E45 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		062FA85F1E76439500B84E45 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 		069D5D001E680AFE004CEFF6 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069D5D041E680AFE004CEFF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		069D5D061E680AFE004CEFF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +60,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062FA8261E76355800B84E45 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
+				062FA8251E76355400B84E45 /* Public.h */,
+				062FA85E1E76439500B84E45 /* Operation.h */,
+				062FA85F1E76439500B84E45 /* Operation.m */,
+				062FA85D1E763CED00B84E45 /* SDWebImageHeader.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		062FA8501E76396100B84E45 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				062FA8511E76399B00B84E45 /* MBProgressHUD+Add.h */,
+				062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */,
+				062FA8531E76399B00B84E45 /* UIViewController+HUD.h */,
+				062FA8541E76399B00B84E45 /* UIViewController+HUD.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		069D5CF71E680AFE004CEFF6 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +106,7 @@
 			children = (
 				069D5D261E680BFD004CEFF6 /* Base */,
 				069D5D241E680BEC004CEFF6 /* Resources */,
-				069D5D221E680BC6004CEFF6 /* DataHanding */,
+				069D5D221E680BC6004CEFF6 /* DataHanding(Model) */,
 				069D5D1F1E680B8E004CEFF6 /* Views */,
 				069D5D1D1E680B71004CEFF6 /* Controllers */,
 				069D5D031E680AFE004CEFF6 /* Supporting Files */,
@@ -126,12 +165,12 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		069D5D221E680BC6004CEFF6 /* DataHanding */ = {
+		069D5D221E680BC6004CEFF6 /* DataHanding(Model) */ = {
 			isa = PBXGroup;
 			children = (
 				069D5D231E680BD7004CEFF6 /* MainFrame */,
 			);
-			name = DataHanding;
+			name = "DataHanding(Model)";
 			sourceTree = "<group>";
 		};
 		069D5D231E680BD7004CEFF6 /* MainFrame */ = {
@@ -145,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				069D5D251E680BF2004CEFF6 /* Images */,
+				062FA8501E76396100B84E45 /* Classes */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -163,6 +203,7 @@
 				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
 				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 				069D5D271E680C0A004CEFF6 /* API */,
+				062FA8261E76355800B84E45 /* Config */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -170,6 +211,9 @@
 		069D5D271E680C0A004CEFF6 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				062FA8241E76348200B84E45 /* API.h */,
+				062FA85A1E763BC400B84E45 /* Account.h */,
+				062FA85B1E763BC400B84E45 /* Account.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -313,9 +357,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062FA8581E76399B00B84E45 /* UIViewController+HUD.m in Sources */,
 				069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */,
 				069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */,
+				062FA85C1E763BC400B84E45 /* Account.m in Sources */,
 				069D5D051E680AFE004CEFF6 /* main.m in Sources */,
+				062FA8571E76399B00B84E45 /* MBProgressHUD+Add.m in Sources */,
+				062FA8601E76439500B84E45 /* Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +482,8 @@
 			baseConfigurationReference = 5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QusuiOSProject.BaseProject;
@@ -446,6 +496,8 @@
 			baseConfigurationReference = E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QusuiOSProject.BaseProject;
