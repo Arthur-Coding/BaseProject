@@ -28,7 +28,7 @@
  *  type是png时,可以传入nil
  *  建议使用此方法，性能更高于[UIImage imageNamed:XXX]
  **********************************/
-#define kLoadImage(imageName,type) ([UIImage imageWithContentsOfFile:[NSBundle mainBundle] pathForResource:imagename ofType:type == nil ? @"png" : type])
+#define kLoadImage(imageName,type) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:imageName ofType:type == nil ? @"png" : type]])
 
 /**********************************
  *  颜色处理
