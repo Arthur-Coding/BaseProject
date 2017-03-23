@@ -10,8 +10,6 @@
 		0606DF651E8283E600FE1D1E /* LSRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DF641E8283E600FE1D1E /* LSRouter.framework */; };
 		0606DFF51E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */; };
 		0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */; };
-		062FA8571E76399B00B84E45 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */; };
-		062FA8581E76399B00B84E45 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8541E76399B00B84E45 /* UIViewController+HUD.m */; };
 		062FA8601E76439500B84E45 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85F1E76439500B84E45 /* Operation.m */; };
 		069D5D051E680AFE004CEFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D041E680AFE004CEFF6 /* main.m */; };
 		069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D071E680AFE004CEFF6 /* AppDelegate.m */; };
@@ -25,16 +23,12 @@
 
 /* Begin PBXFileReference section */
 		0606DF641E8283E600FE1D1E /* LSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRouter.framework; sourceTree = "<group>"; };
-		0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
+		0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CategoryPropertyDynamicSupport.framework; path = BaseProject/CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
 		0606DFF91E8298A000FE1D1E /* LSRouter+Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Account.h"; sourceTree = "<group>"; };
 		0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Account.m"; sourceTree = "<group>"; };
 		062FA8231E7633B000B84E45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		062FA8241E76348200B84E45 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		062FA8251E76355400B84E45 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
-		062FA8511E76399B00B84E45 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
-		062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
-		062FA8531E76399B00B84E45 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
-		062FA8541E76399B00B84E45 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		062FA85D1E763CED00B84E45 /* SDWebImageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageHeader.h; sourceTree = "<group>"; };
 		062FA85E1E76439500B84E45 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 		062FA85F1E76439500B84E45 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
@@ -69,11 +63,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0606DEE81E822D0E00FE1D1E /* Components(组件:未cocoaPods化的) */ = {
+		0606DEE81E822D0E00FE1D1E /* Components */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "Components(组件:未cocoaPods化的)";
+			name = Components;
 			sourceTree = "<group>";
 		};
 		0606DF081E82478D00FE1D1E /* LSRoute */ = {
@@ -82,18 +76,7 @@
 				0606DF641E8283E600FE1D1E /* LSRouter.framework */,
 			);
 			name = LSRoute;
-			sourceTree = "<group>";
-		};
-		0606DF091E82479C00FE1D1E /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */,
-				062FA8511E76399B00B84E45 /* MBProgressHUD+Add.h */,
-				062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */,
-				062FA8531E76399B00B84E45 /* UIViewController+HUD.h */,
-				062FA8541E76399B00B84E45 /* UIViewController+HUD.m */,
-			);
-			name = Others;
+			path = BaseProject;
 			sourceTree = "<group>";
 		};
 		0606DF0A1E824A5B00FE1D1E /* Modules_API */ = {
@@ -156,16 +139,6 @@
 				062FA85D1E763CED00B84E45 /* SDWebImageHeader.h */,
 			);
 			name = Config;
-			sourceTree = "<group>";
-		};
-		062FA8501E76396100B84E45 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0606DF081E82478D00FE1D1E /* LSRoute */,
-				06B4EDC81E8386AC0063BB35 /* LSRootNavigationController */,
-				0606DF091E82479C00FE1D1E /* Others */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		069D5CF71E680AFE004CEFF6 = {
@@ -237,8 +210,8 @@
 			children = (
 				0606DF0C1E824B6700FE1D1E /* Base_Categorys */,
 				069D5D251E680BF2004CEFF6 /* Images */,
-				062FA8501E76396100B84E45 /* Classes */,
-				0606DEE81E822D0E00FE1D1E /* Components(组件:未cocoaPods化的) */,
+				06B4EDE41E839A6B0063BB35 /* Others */,
+				0606DEE81E822D0E00FE1D1E /* Components */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -276,6 +249,14 @@
 				06B4EDC61E8386A90063BB35 /* LSRootNavigationController.framework */,
 			);
 			name = LSRootNavigationController;
+			path = BaseProject;
+			sourceTree = "<group>";
+		};
+		06B4EDE41E839A6B0063BB35 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 		3DCB6D0A3A4D2A68DA35BD1C /* Pods */ = {
@@ -290,6 +271,9 @@
 		4B66BAE73A761F4782F7ECDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0606DF081E82478D00FE1D1E /* LSRoute */,
+				06B4EDC81E8386AC0063BB35 /* LSRootNavigationController */,
+				0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */,
 				FCE2B3690B221561293AE55F /* libPods-BaseProject.a */,
 			);
 			name = Frameworks;
@@ -417,12 +401,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062FA8581E76399B00B84E45 /* UIViewController+HUD.m in Sources */,
 				069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */,
 				069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */,
 				069D5D051E680AFE004CEFF6 /* main.m in Sources */,
 				0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */,
-				062FA8571E76399B00B84E45 /* MBProgressHUD+Add.m in Sources */,
 				062FA8601E76439500B84E45 /* Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

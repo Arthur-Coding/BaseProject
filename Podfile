@@ -6,5 +6,4 @@ target 'BaseProject' do
     pod 'SDWebImage'
     pod 'MJRefresh'
     pod 'IQKeyboardManager'
-    pod 'MBProgressHUD'
 end
