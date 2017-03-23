@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0606DF071E82413700FE1D1E /* LSRootNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DF061E82413700FE1D1E /* LSRootNavigationController.framework */; };
+		0606DF651E8283E600FE1D1E /* LSRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DF641E8283E600FE1D1E /* LSRouter.framework */; };
+		0606DFF51E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */; };
+		0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */; };
 		062FA8571E76399B00B84E45 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */; };
 		062FA8581E76399B00B84E45 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8541E76399B00B84E45 /* UIViewController+HUD.m */; };
-		062FA85C1E763BC400B84E45 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85B1E763BC400B84E45 /* Account.m */; };
 		062FA8601E76439500B84E45 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85F1E76439500B84E45 /* Operation.m */; };
-		062FA87C1E7686C800B84E45 /* LSRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8771E7686C800B84E45 /* LSRootNavigationController.m */; };
-		062FA87D1E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA8791E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m */; };
-		062FA87E1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA87B1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m */; };
 		069D5D051E680AFE004CEFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D041E680AFE004CEFF6 /* main.m */; };
 		069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D071E680AFE004CEFF6 /* AppDelegate.m */; };
 		069D5D0E1E680AFE004CEFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0C1E680AFE004CEFF6 /* Main.storyboard */; };
@@ -24,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0606DF061E82413700FE1D1E /* LSRootNavigationController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRootNavigationController.framework; sourceTree = "<group>"; };
+		0606DF641E8283E600FE1D1E /* LSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRouter.framework; sourceTree = "<group>"; };
+		0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
+		0606DFF91E8298A000FE1D1E /* LSRouter+Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Account.h"; sourceTree = "<group>"; };
+		0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Account.m"; sourceTree = "<group>"; };
 		062FA8231E7633B000B84E45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		062FA8241E76348200B84E45 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		062FA8251E76355400B84E45 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
@@ -31,17 +36,9 @@
 		062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		062FA8531E76399B00B84E45 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		062FA8541E76399B00B84E45 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
-		062FA85A1E763BC400B84E45 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
-		062FA85B1E763BC400B84E45 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		062FA85D1E763CED00B84E45 /* SDWebImageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageHeader.h; sourceTree = "<group>"; };
 		062FA85E1E76439500B84E45 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 		062FA85F1E76439500B84E45 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
-		062FA8761E7686C800B84E45 /* LSRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRootNavigationController.h; sourceTree = "<group>"; };
-		062FA8771E7686C800B84E45 /* LSRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRootNavigationController.m; sourceTree = "<group>"; };
-		062FA8781E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+LSMagicNavigationBar.h"; sourceTree = "<group>"; };
-		062FA8791E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+LSMagicNavigationBar.m"; sourceTree = "<group>"; };
-		062FA87A1E7686C800B84E45 /* UIViewController+LSRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LSRootNavigationController.h"; sourceTree = "<group>"; };
-		062FA87B1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LSRootNavigationController.m"; sourceTree = "<group>"; };
 		069D5D001E680AFE004CEFF6 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069D5D041E680AFE004CEFF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		069D5D061E680AFE004CEFF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,13 +59,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0606DF651E8283E600FE1D1E /* LSRouter.framework in Frameworks */,
+				0606DFF51E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework in Frameworks */,
 				94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */,
+				0606DF071E82413700FE1D1E /* LSRootNavigationController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0606DEE81E822D0E00FE1D1E /* Components(组件:未cocoaPods化的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Components(组件:未cocoaPods化的)";
+			sourceTree = "<group>";
+		};
+		0606DF081E82478D00FE1D1E /* LSRoute */ = {
+			isa = PBXGroup;
+			children = (
+				0606DF641E8283E600FE1D1E /* LSRouter.framework */,
+			);
+			name = LSRoute;
+			sourceTree = "<group>";
+		};
+		0606DF091E82479C00FE1D1E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */,
+				062FA8511E76399B00B84E45 /* MBProgressHUD+Add.h */,
+				062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */,
+				062FA8531E76399B00B84E45 /* UIViewController+HUD.h */,
+				062FA8541E76399B00B84E45 /* UIViewController+HUD.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		0606DF0A1E824A5B00FE1D1E /* Modules_API */ = {
+			isa = PBXGroup;
+			children = (
+				0606DFF91E8298A000FE1D1E /* LSRouter+Account.h */,
+				0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */,
+			);
+			name = Modules_API;
+			sourceTree = "<group>";
+		};
+		0606DF0B1E824A8100FE1D1E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0606DF0D1E824B9B00FE1D1E /* 主模块 */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		0606DF0C1E824B6700FE1D1E /* Base_Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base_Categorys;
+			sourceTree = "<group>";
+		};
+		0606DF0D1E824B9B00FE1D1E /* 主模块 */ = {
+			isa = PBXGroup;
+			children = (
+				0606DF0F1E824C0900FE1D1E /* Resources */,
+				0606DF0E1E824BBD00FE1D1E /* Classes */,
+				069D5D221E680BC6004CEFF6 /* DataHanding(Model) */,
+				069D5D1F1E680B8E004CEFF6 /* Views */,
+				069D5D1D1E680B71004CEFF6 /* Controllers */,
+			);
+			name = "主模块";
+			sourceTree = "<group>";
+		};
+		0606DF0E1E824BBD00FE1D1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0606DF0F1E824C0900FE1D1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		062FA8261E76355800B84E45 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,11 +161,9 @@
 		062FA8501E76396100B84E45 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				062FA8511E76399B00B84E45 /* MBProgressHUD+Add.h */,
-				062FA8521E76399B00B84E45 /* MBProgressHUD+Add.m */,
-				062FA8531E76399B00B84E45 /* UIViewController+HUD.h */,
-				062FA8541E76399B00B84E45 /* UIViewController+HUD.m */,
+				0606DF081E82478D00FE1D1E /* LSRoute */,
 				062FA8751E7686C800B84E45 /* LSRootNavigationController */,
+				0606DF091E82479C00FE1D1E /* Others */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -96,12 +171,7 @@
 		062FA8751E7686C800B84E45 /* LSRootNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				062FA8761E7686C800B84E45 /* LSRootNavigationController.h */,
-				062FA8771E7686C800B84E45 /* LSRootNavigationController.m */,
-				062FA8781E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.h */,
-				062FA8791E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m */,
-				062FA87A1E7686C800B84E45 /* UIViewController+LSRootNavigationController.h */,
-				062FA87B1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m */,
+				0606DF061E82413700FE1D1E /* LSRootNavigationController.framework */,
 			);
 			path = LSRootNavigationController;
 			sourceTree = "<group>";
@@ -129,9 +199,8 @@
 			children = (
 				069D5D261E680BFD004CEFF6 /* Base */,
 				069D5D241E680BEC004CEFF6 /* Resources */,
-				069D5D221E680BC6004CEFF6 /* DataHanding(Model) */,
-				069D5D1F1E680B8E004CEFF6 /* Views */,
-				069D5D1D1E680B71004CEFF6 /* Controllers */,
+				0606DF0A1E824A5B00FE1D1E /* Modules_API */,
+				0606DF0B1E824A8100FE1D1E /* Modules */,
 				069D5D031E680AFE004CEFF6 /* Supporting Files */,
 			);
 			path = BaseProject;
@@ -140,6 +209,8 @@
 		069D5D031E680AFE004CEFF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
+				069D5D0C1E680AFE004CEFF6 /* Main.storyboard */,
 				069D5D141E680AFE004CEFF6 /* Info.plist */,
 				069D5D041E680AFE004CEFF6 /* main.m */,
 			);
@@ -149,65 +220,33 @@
 		069D5D1D1E680B71004CEFF6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D1E1E680B7F004CEFF6 /* MainFrame */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		069D5D1E1E680B7F004CEFF6 /* MainFrame */ = {
-			isa = PBXGroup;
-			children = (
 				069D5D1A1E680B10004CEFF6 /* MainViewController.h */,
 				069D5D1B1E680B10004CEFF6 /* MainViewController.m */,
 			);
-			name = MainFrame;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		069D5D1F1E680B8E004CEFF6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D211E680BA9004CEFF6 /* Storyboards */,
-				069D5D201E680B99004CEFF6 /* MainFrame */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		069D5D201E680B99004CEFF6 /* MainFrame */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = MainFrame;
-			sourceTree = "<group>";
-		};
-		069D5D211E680BA9004CEFF6 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				069D5D0C1E680AFE004CEFF6 /* Main.storyboard */,
-				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
-			);
-			name = Storyboards;
 			sourceTree = "<group>";
 		};
 		069D5D221E680BC6004CEFF6 /* DataHanding(Model) */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D231E680BD7004CEFF6 /* MainFrame */,
 			);
 			name = "DataHanding(Model)";
-			sourceTree = "<group>";
-		};
-		069D5D231E680BD7004CEFF6 /* MainFrame */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = MainFrame;
 			sourceTree = "<group>";
 		};
 		069D5D241E680BEC004CEFF6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0606DF0C1E824B6700FE1D1E /* Base_Categorys */,
 				069D5D251E680BF2004CEFF6 /* Images */,
 				062FA8501E76396100B84E45 /* Classes */,
+				0606DEE81E822D0E00FE1D1E /* Components(组件:未cocoaPods化的) */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -235,8 +274,6 @@
 			isa = PBXGroup;
 			children = (
 				062FA8241E76348200B84E45 /* API.h */,
-				062FA85A1E763BC400B84E45 /* Account.h */,
-				062FA85B1E763BC400B84E45 /* Account.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -383,12 +420,9 @@
 				062FA8581E76399B00B84E45 /* UIViewController+HUD.m in Sources */,
 				069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */,
 				069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */,
-				062FA85C1E763BC400B84E45 /* Account.m in Sources */,
 				069D5D051E680AFE004CEFF6 /* main.m in Sources */,
-				062FA87E1E7686C800B84E45 /* UIViewController+LSRootNavigationController.m in Sources */,
-				062FA87D1E7686C800B84E45 /* UINavigationBar+LSMagicNavigationBar.m in Sources */,
+				0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */,
 				062FA8571E76399B00B84E45 /* MBProgressHUD+Add.m in Sources */,
-				062FA87C1E7686C800B84E45 /* LSRootNavigationController.m in Sources */,
 				062FA8601E76439500B84E45 /* Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,11 +542,17 @@
 			baseConfigurationReference = 5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaseProject/LSRootNavigationController",
+					"$(PROJECT_DIR)/BaseProject",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.QusuiOSProject.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qusukeji.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -522,11 +562,17 @@
 			baseConfigurationReference = E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaseProject/LSRootNavigationController",
+					"$(PROJECT_DIR)/BaseProject",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.QusuiOSProject.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qusukeji.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

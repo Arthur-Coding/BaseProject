@@ -1,0 +1,6 @@
+framework module LSRouter {
+  umbrella header "LSRouter.h"
+
+  export *
+  module * { export * }
+}

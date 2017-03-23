@@ -40,4 +40,5 @@ void alert2(UIViewController *obj,NSString *mes,alertAction confirmAction, alert
  */
 void changeStatusBarColor(UIColor *color);
 
+
 @end

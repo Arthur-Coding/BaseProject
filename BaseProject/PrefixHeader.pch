@@ -14,9 +14,11 @@
     #import <Foundation/Foundation.h>
 
     #import "API.h" // app接口
-    #import "Account.h" // 账号管理,登录、登出、注册、忘记密码、修改密码、账号状态监控、版本更新等
     #import "Public.h" // 公共常用宏配置,APPID配置等
     #import "Operation.h" // 操作配置
+    #import <LSRouter/LSRouter.h>
+    #import <LSRootNavigationController/LSRootNavigationController.h>
+    #import "LSRouter+Account.h" // 账号处理
 
     #import "AFNetworking.h"
     #import "SDWebImageHeader.h"

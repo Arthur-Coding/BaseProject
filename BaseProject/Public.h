@@ -26,7 +26,7 @@
 /**********************************
  *  加载图片
  *  type是png时,可以传入nil
- *  建议使用此方法，性能更高于[UIImage imageNamed:XXX]
+ *  若图片放置于工程文件中，而不在xcassets文件中时，建议使用此方法，性能更高于[UIImage imageNamed:XXX]
  **********************************/
 #define kLoadImage(imageName,type) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:imageName ofType:type == nil ? @"png" : type]])
 
