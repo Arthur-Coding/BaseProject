@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0606DF071E82413700FE1D1E /* LSRootNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DF061E82413700FE1D1E /* LSRootNavigationController.framework */; };
 		0606DF651E8283E600FE1D1E /* LSRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DF641E8283E600FE1D1E /* LSRouter.framework */; };
 		0606DFF51E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */; };
 		0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */; };
@@ -20,11 +19,11 @@
 		069D5D101E680AFE004CEFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0F1E680AFE004CEFF6 /* Assets.xcassets */; };
 		069D5D131E680AFE004CEFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */; };
 		069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D1B1E680B10004CEFF6 /* MainViewController.m */; };
+		06B4EDC71E8386A90063BB35 /* LSRootNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B4EDC61E8386A90063BB35 /* LSRootNavigationController.framework */; };
 		94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE2B3690B221561293AE55F /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0606DF061E82413700FE1D1E /* LSRootNavigationController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRootNavigationController.framework; sourceTree = "<group>"; };
 		0606DF641E8283E600FE1D1E /* LSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRouter.framework; sourceTree = "<group>"; };
 		0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
 		0606DFF91E8298A000FE1D1E /* LSRouter+Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Account.h"; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		069D5D141E680AFE004CEFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069D5D1A1E680B10004CEFF6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		069D5D1B1E680B10004CEFF6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		06B4EDC61E8386A90063BB35 /* LSRootNavigationController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRootNavigationController.framework; sourceTree = "<group>"; };
 		5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		FCE2B3690B221561293AE55F /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +62,7 @@
 				0606DF651E8283E600FE1D1E /* LSRouter.framework in Frameworks */,
 				0606DFF51E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework in Frameworks */,
 				94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */,
-				0606DF071E82413700FE1D1E /* LSRootNavigationController.framework in Frameworks */,
+				06B4EDC71E8386A90063BB35 /* LSRootNavigationController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,18 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				0606DF081E82478D00FE1D1E /* LSRoute */,
-				062FA8751E7686C800B84E45 /* LSRootNavigationController */,
+				06B4EDC81E8386AC0063BB35 /* LSRootNavigationController */,
 				0606DF091E82479C00FE1D1E /* Others */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		062FA8751E7686C800B84E45 /* LSRootNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				0606DF061E82413700FE1D1E /* LSRootNavigationController.framework */,
-			);
-			path = LSRootNavigationController;
 			sourceTree = "<group>";
 		};
 		069D5CF71E680AFE004CEFF6 = {
@@ -276,6 +268,14 @@
 				062FA8241E76348200B84E45 /* API.h */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		06B4EDC81E8386AC0063BB35 /* LSRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				06B4EDC61E8386A90063BB35 /* LSRootNavigationController.framework */,
+			);
+			name = LSRootNavigationController;
 			sourceTree = "<group>";
 		};
 		3DCB6D0A3A4D2A68DA35BD1C /* Pods */ = {

@@ -1,0 +1,6 @@
+framework module LSRootNavigationController {
+  umbrella header "LSRootNavigationController.h"
+
+  export *
+  module * { export * }
+}
