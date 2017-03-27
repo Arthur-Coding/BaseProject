@@ -8,8 +8,6 @@
 //  文档名称：账号信息管理
 //  功能描述：账号信息管理
 
-#import <LSRouter/LSRouter.h>
-
 @class AFHTTPSessionManager;
 
 @interface LSRouter (Account)

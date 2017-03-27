@@ -14,7 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - IQKeyboardManager (4.0.7)
+  - CategoryPropertyDynamicSupport (1.0.0)
+  - LSRootNavigationController (1.0.0)
+  - LSRouter (1.0.2)
   - MJRefresh (3.1.12)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -22,16 +24,42 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - IQKeyboardManager
+  - CategoryPropertyDynamicSupport (from `svn://120.25.201.201/lib/applib/ios/Modules/CategoryPropertyDynamicSupport`)
+  - LSRootNavigationController (from `svn://120.25.201.201/lib/applib/ios/LSRootNavigationController`)
+  - LSRouter (from `svn://120.25.201.201/lib/applib/ios/LSRouter`)
   - MJRefresh
   - SDWebImage
 
+EXTERNAL SOURCES:
+  CategoryPropertyDynamicSupport:
+    :svn: svn://120.25.201.201/lib/applib/ios/Modules/CategoryPropertyDynamicSupport
+    :tag: 1.0.0
+  LSRootNavigationController:
+    :svn: svn://120.25.201.201/lib/applib/ios/LSRootNavigationController
+    :tag: 1.0.0
+  LSRouter:
+    :svn: svn://120.25.201.201/lib/applib/ios/LSRouter
+    :tag: 1.0.2
+
+CHECKOUT OPTIONS:
+  CategoryPropertyDynamicSupport:
+    :svn: svn://120.25.201.201/lib/applib/ios/Modules/CategoryPropertyDynamicSupport
+    :tag: 1.0.0
+  LSRootNavigationController:
+    :svn: svn://120.25.201.201/lib/applib/ios/LSRootNavigationController
+    :tag: 1.0.0
+  LSRouter:
+    :svn: svn://120.25.201.201/lib/applib/ios/LSRouter
+    :tag: 1.0.2
+
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  CategoryPropertyDynamicSupport: 32cc9cd9cf289d1fa82bba45d088010cdde9df61
+  LSRootNavigationController: 961e9158e2222cf0648bf971c5f2927d13be2fe1
+  LSRouter: 51b79e4395889a53f6456fe804bc08adf65375cb
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: a318f6cc06b983f920bc91a0babfd7695b8b53a3
+PODFILE CHECKSUM: 02a8249bf542b712efd9c6c6aa7343a8edf59c17
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1.beta.1

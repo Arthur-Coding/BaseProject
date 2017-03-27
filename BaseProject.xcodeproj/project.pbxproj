@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0606DF651E8283E600FE1D1E /* LSRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DF641E8283E600FE1D1E /* LSRouter.framework */; };
-		0606DFF51E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */; };
 		0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */; };
 		062FA8601E76439500B84E45 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 062FA85F1E76439500B84E45 /* Operation.m */; };
 		069D5D051E680AFE004CEFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D041E680AFE004CEFF6 /* main.m */; };
@@ -17,13 +15,12 @@
 		069D5D101E680AFE004CEFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0F1E680AFE004CEFF6 /* Assets.xcassets */; };
 		069D5D131E680AFE004CEFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */; };
 		069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D1B1E680B10004CEFF6 /* MainViewController.m */; };
-		06B4EDC71E8386A90063BB35 /* LSRootNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B4EDC61E8386A90063BB35 /* LSRootNavigationController.framework */; };
+		069E34CC1E84B19900FE9821 /* UIView+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E34CB1E84B19900FE9821 /* UIView+Setup.m */; };
+		069E34D21E84FA7400FE9821 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E34D11E84FA7400FE9821 /* BaseListViewController.m */; };
 		94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE2B3690B221561293AE55F /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0606DF641E8283E600FE1D1E /* LSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRouter.framework; sourceTree = "<group>"; };
-		0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CategoryPropertyDynamicSupport.framework; path = BaseProject/CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
 		0606DFF91E8298A000FE1D1E /* LSRouter+Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Account.h"; sourceTree = "<group>"; };
 		0606DFFA1E8298A000FE1D1E /* LSRouter+Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Account.m"; sourceTree = "<group>"; };
 		062FA8231E7633B000B84E45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -42,7 +39,10 @@
 		069D5D141E680AFE004CEFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069D5D1A1E680B10004CEFF6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		069D5D1B1E680B10004CEFF6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		06B4EDC61E8386A90063BB35 /* LSRootNavigationController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRootNavigationController.framework; sourceTree = "<group>"; };
+		069E34CA1E84B19900FE9821 /* UIView+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Setup.h"; sourceTree = "<group>"; };
+		069E34CB1E84B19900FE9821 /* UIView+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Setup.m"; sourceTree = "<group>"; };
+		069E34D01E84FA7400FE9821 /* BaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListViewController.h; sourceTree = "<group>"; };
+		069E34D11E84FA7400FE9821 /* BaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewController.m; sourceTree = "<group>"; };
 		5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		FCE2B3690B221561293AE55F /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,32 +53,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0606DF651E8283E600FE1D1E /* LSRouter.framework in Frameworks */,
-				0606DFF51E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework in Frameworks */,
 				94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */,
-				06B4EDC71E8386A90063BB35 /* LSRootNavigationController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0606DEE81E822D0E00FE1D1E /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Components;
-			sourceTree = "<group>";
-		};
-		0606DF081E82478D00FE1D1E /* LSRoute */ = {
-			isa = PBXGroup;
-			children = (
-				0606DF641E8283E600FE1D1E /* LSRouter.framework */,
-			);
-			name = LSRoute;
-			path = BaseProject;
-			sourceTree = "<group>";
-		};
 		0606DF0A1E824A5B00FE1D1E /* Modules_API */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +77,16 @@
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		0606DF0C1E824B6700FE1D1E /* Base_Categorys */ = {
+		0606DF0C1E824B6700FE1D1E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				069E34CA1E84B19900FE9821 /* UIView+Setup.h */,
+				069E34CB1E84B19900FE9821 /* UIView+Setup.m */,
+				069E34D01E84FA7400FE9821 /* BaseListViewController.h */,
+				069E34D11E84FA7400FE9821 /* BaseListViewController.m */,
 			);
-			name = Base_Categorys;
+			name = Classes;
+			path = BaseProject;
 			sourceTree = "<group>";
 		};
 		0606DF0D1E824B9B00FE1D1E /* 主模块 */ = {
@@ -174,8 +160,6 @@
 		069D5D031E680AFE004CEFF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
-				069D5D0C1E680AFE004CEFF6 /* Main.storyboard */,
 				069D5D141E680AFE004CEFF6 /* Info.plist */,
 				069D5D041E680AFE004CEFF6 /* main.m */,
 			);
@@ -208,10 +192,9 @@
 		069D5D241E680BEC004CEFF6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0606DF0C1E824B6700FE1D1E /* Base_Categorys */,
+				06B847EA1E88FFA10052E69C /* StoryBoards */,
 				069D5D251E680BF2004CEFF6 /* Images */,
 				06B4EDE41E839A6B0063BB35 /* Others */,
-				0606DEE81E822D0E00FE1D1E /* Components */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -243,20 +226,20 @@
 			name = API;
 			sourceTree = "<group>";
 		};
-		06B4EDC81E8386AC0063BB35 /* LSRootNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				06B4EDC61E8386A90063BB35 /* LSRootNavigationController.framework */,
-			);
-			name = LSRootNavigationController;
-			path = BaseProject;
-			sourceTree = "<group>";
-		};
 		06B4EDE41E839A6B0063BB35 /* Others */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		06B847EA1E88FFA10052E69C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
+				069D5D0C1E680AFE004CEFF6 /* Main.storyboard */,
+			);
+			name = StoryBoards;
 			sourceTree = "<group>";
 		};
 		3DCB6D0A3A4D2A68DA35BD1C /* Pods */ = {
@@ -271,9 +254,7 @@
 		4B66BAE73A761F4782F7ECDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0606DF081E82478D00FE1D1E /* LSRoute */,
-				06B4EDC81E8386AC0063BB35 /* LSRootNavigationController */,
-				0606DFF41E828F9700FE1D1E /* CategoryPropertyDynamicSupport.framework */,
+				0606DF0C1E824B6700FE1D1E /* Classes */,
 				FCE2B3690B221561293AE55F /* libPods-BaseProject.a */,
 			);
 			name = Frameworks;
@@ -361,7 +342,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		2711AB58470F896445B77C67 /* [CP] Embed Pods Frameworks */ = {
@@ -405,7 +386,9 @@
 				069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */,
 				069D5D051E680AFE004CEFF6 /* main.m in Sources */,
 				0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */,
+				069E34CC1E84B19900FE9821 /* UIView+Setup.m in Sources */,
 				062FA8601E76439500B84E45 /* Operation.m in Sources */,
+				069E34D21E84FA7400FE9821 /* BaseListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +517,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Qusukeji.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qusukeji.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -554,7 +537,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Qusukeji.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qusukeji.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
