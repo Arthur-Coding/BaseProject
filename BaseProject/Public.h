@@ -54,20 +54,6 @@
 #define kCurrentLanguage ([NSLocale preferredLanguages].firstObject)//当前系统语言
 //#define kCurrentLanguage ([[NSUserDefaults standardUserDefaults] valueForKey:@"AppleLanguages"]).firstObject
 
-#define kDevice (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ? @"iPad" : @"iPhone")//判断当前设备是iPod或iPhone
 #define SYSTEM_VERSION ([[[UIDevice currentDevice] systemVersion] floatValue])//当前系统版本
-#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
-#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
-#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
-#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
-#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
-
-//判断是真机还是模拟器
-#if TARGET_OS_IPHONE
-//iPhone Device do something
-#endif
-#if TARGET_IPHONE_SIMULATOR
-//iPhone Simulator do something
-#endif
 
 #endif /* Public_h */

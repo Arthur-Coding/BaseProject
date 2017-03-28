@@ -15,8 +15,6 @@
 		069D5D101E680AFE004CEFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0F1E680AFE004CEFF6 /* Assets.xcassets */; };
 		069D5D131E680AFE004CEFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */; };
 		069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D1B1E680B10004CEFF6 /* MainViewController.m */; };
-		069E34CC1E84B19900FE9821 /* UIView+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E34CB1E84B19900FE9821 /* UIView+Setup.m */; };
-		069E34D21E84FA7400FE9821 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E34D11E84FA7400FE9821 /* BaseListViewController.m */; };
 		94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE2B3690B221561293AE55F /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -39,10 +37,6 @@
 		069D5D141E680AFE004CEFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069D5D1A1E680B10004CEFF6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		069D5D1B1E680B10004CEFF6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		069E34CA1E84B19900FE9821 /* UIView+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Setup.h"; sourceTree = "<group>"; };
-		069E34CB1E84B19900FE9821 /* UIView+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Setup.m"; sourceTree = "<group>"; };
-		069E34D01E84FA7400FE9821 /* BaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListViewController.h; sourceTree = "<group>"; };
-		069E34D11E84FA7400FE9821 /* BaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewController.m; sourceTree = "<group>"; };
 		5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		FCE2B3690B221561293AE55F /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,18 +71,6 @@
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		0606DF0C1E824B6700FE1D1E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				069E34CA1E84B19900FE9821 /* UIView+Setup.h */,
-				069E34CB1E84B19900FE9821 /* UIView+Setup.m */,
-				069E34D01E84FA7400FE9821 /* BaseListViewController.h */,
-				069E34D11E84FA7400FE9821 /* BaseListViewController.m */,
-			);
-			name = Classes;
-			path = BaseProject;
-			sourceTree = "<group>";
-		};
 		0606DF0D1E824B9B00FE1D1E /* 主模块 */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,13 +100,19 @@
 		062FA8261E76355800B84E45 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
 				062FA8251E76355400B84E45 /* Public.h */,
 				062FA85E1E76439500B84E45 /* Operation.h */,
 				062FA85F1E76439500B84E45 /* Operation.m */,
 				062FA85D1E763CED00B84E45 /* SDWebImageHeader.h */,
 			);
 			name = Config;
+			sourceTree = "<group>";
+		};
+		068DBBB61E8A4A5800C3125C /* 模拟数据 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "模拟数据";
 			sourceTree = "<group>";
 		};
 		069D5CF71E680AFE004CEFF6 = {
@@ -212,6 +200,7 @@
 			children = (
 				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
 				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
+				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
 				069D5D271E680C0A004CEFF6 /* API */,
 				062FA8261E76355800B84E45 /* Config */,
 			);
@@ -229,6 +218,7 @@
 		06B4EDE41E839A6B0063BB35 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				068DBBB61E8A4A5800C3125C /* 模拟数据 */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -254,7 +244,6 @@
 		4B66BAE73A761F4782F7ECDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0606DF0C1E824B6700FE1D1E /* Classes */,
 				FCE2B3690B221561293AE55F /* libPods-BaseProject.a */,
 			);
 			name = Frameworks;
@@ -386,9 +375,7 @@
 				069D5D1C1E680B10004CEFF6 /* MainViewController.m in Sources */,
 				069D5D051E680AFE004CEFF6 /* main.m in Sources */,
 				0606DFFB1E8298A000FE1D1E /* LSRouter+Account.m in Sources */,
-				069E34CC1E84B19900FE9821 /* UIView+Setup.m in Sources */,
 				062FA8601E76439500B84E45 /* Operation.m in Sources */,
-				069E34D21E84FA7400FE9821 /* BaseListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

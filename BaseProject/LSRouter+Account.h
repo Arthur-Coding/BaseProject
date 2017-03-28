@@ -14,7 +14,6 @@
 
 // 此类别中所有属性均加上前缀QS_，同时在.m文件中@dynamic
 
-
 /******网络请求******/
 + (AFHTTPSessionManager *)httpsManager;
 
