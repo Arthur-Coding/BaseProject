@@ -10,8 +10,8 @@
 #define PrefixHeader_pch
 
 #define USE_SimulateData YES // 是否使用模拟数据
-
-#define GetSimulateData(plistName) [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]]?[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]]:[NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]] // 若使用模拟数据，使用此宏读取plist模拟数据
+#define GetData_Array(plistName) [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]]
+#define GetData_Dictionary(plistName) [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]] 
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
