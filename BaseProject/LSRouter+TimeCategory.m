@@ -1,9 +1,9 @@
 //
 //  LSRouter+TimeCategory.m
-//  Yizsuda
+//  BaseProject
 //
 //  Created by ArthurShuai on 2017/9/25.
-//  Copyright © 2017年 qusu. All rights reserved.
+//  Copyright © 2017年 ArthurShuai. All rights reserved.
 //
 
 #import "LSRouter+TimeCategory.h"

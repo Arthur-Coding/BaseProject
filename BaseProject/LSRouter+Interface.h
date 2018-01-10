@@ -3,7 +3,7 @@
 //  BaseProject
 //
 //  Created by ArthurShuai on 2018/1/5.
-//  Copyright © 2018年 qusu. All rights reserved.
+//  Copyright © 2018年 ArthurShuai. All rights reserved.
 //
 //  文档名称：网络接口配置
 //  功能描述：网络接口配置

@@ -1,16 +1,16 @@
 //
-//  LSRouter+Networking.m
-//  Yizsuda
+//  LSRouter+Network.m
+//  BaseProject
 //
 //  Created by ArthurShuai on 2017/9/21.
-//  Copyright © 2017年 qusu. All rights reserved.
+//  Copyright © 2017年 ArthurShuai. All rights reserved.
 //
 
-#import "LSRouter+Networking.h"
+#import "LSRouter+Network.h"
 
-@implementation LSRouter (Networking)
+@implementation LSRouter (Network)
 
-+ (AFHTTPSessionManager *)httpsManager
++ (AFHTTPSessionManager *)networkManager
 {   
     AFHTTPSessionManager *session = [AFHTTPSessionManager manager];
     if ([BaseUrl hasPrefix:@"https"]) {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		060CC9DC1F738EE000F112D5 /* LSRouter+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 060CC9DB1F738EE000F112D5 /* LSRouter+Networking.m */; };
+		060CC9DC1F738EE000F112D5 /* LSRouter+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 060CC9DB1F738EE000F112D5 /* LSRouter+Network.m */; };
 		06352E751FFF600900D17DFD /* LSRouter+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352E741FFF600900D17DFD /* LSRouter+Operation.m */; };
 		06352E7E1FFF948400D17DFD /* LSRouter+TimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */; };
 		06352ED51FFF9BAE00D17DFD /* LSRouter+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		060CC9DA1F738EE000F112D5 /* LSRouter+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Networking.h"; sourceTree = "<group>"; };
-		060CC9DB1F738EE000F112D5 /* LSRouter+Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Networking.m"; sourceTree = "<group>"; };
+		060CC9DA1F738EE000F112D5 /* LSRouter+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Network.h"; sourceTree = "<group>"; };
+		060CC9DB1F738EE000F112D5 /* LSRouter+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Network.m"; sourceTree = "<group>"; };
 		062FA8231E7633B000B84E45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		06352E731FFF600900D17DFD /* LSRouter+Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Operation.h"; sourceTree = "<group>"; };
 		06352E741FFF600900D17DFD /* LSRouter+Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Operation.m"; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 		0606DF0A1E824A5B00FE1D1E /* Modules_Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				06352ED62003323E00D17DFD /* 基础模块 */,
-				06352ED72003324A00D17DFD /* 项目模块 */,
+				06352ED62003323E00D17DFD /* Modules_Configuration */,
+				06352ED72003324A00D17DFD /* Modules_Project */,
 			);
 			name = Modules_Interfaces;
 			sourceTree = "<group>";
@@ -83,17 +83,17 @@
 			name = "图片";
 			sourceTree = "<group>";
 		};
-		06352ED01FFF9B5300D17DFD /* 网络请求模块 */ = {
+		06352ED01FFF9B5300D17DFD /* Configuration_Network */ = {
 			isa = PBXGroup;
 			children = (
 				06352E7B1FFF6CE800D17DFD /* LSRouter+Interface.h */,
-				060CC9DA1F738EE000F112D5 /* LSRouter+Networking.h */,
-				060CC9DB1F738EE000F112D5 /* LSRouter+Networking.m */,
+				060CC9DA1F738EE000F112D5 /* LSRouter+Network.h */,
+				060CC9DB1F738EE000F112D5 /* LSRouter+Network.m */,
 			);
-			name = "网络请求模块";
+			name = Configuration_Network;
 			sourceTree = "<group>";
 		};
-		06352ED11FFF9B6100D17DFD /* 项目配置模块 */ = {
+		06352ED11FFF9B6100D17DFD /* Configuration_Basis */ = {
 			isa = PBXGroup;
 			children = (
 				06352ED31FFF9BAD00D17DFD /* LSRouter+AppDelegate.h */,
@@ -102,35 +102,56 @@
 				06352E731FFF600900D17DFD /* LSRouter+Operation.h */,
 				06352E741FFF600900D17DFD /* LSRouter+Operation.m */,
 			);
-			name = "项目配置模块";
+			name = Configuration_Basis;
 			sourceTree = "<group>";
 		};
-		06352ED21FFF9B8B00D17DFD /* 工具模块 */ = {
+		06352ED21FFF9B8B00D17DFD /* Configuration_Tools */ = {
 			isa = PBXGroup;
 			children = (
 				06352E7C1FFF948400D17DFD /* LSRouter+TimeCategory.h */,
 				06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */,
 			);
-			name = "工具模块";
+			name = Configuration_Tools;
 			sourceTree = "<group>";
 		};
-		06352ED62003323E00D17DFD /* 基础模块 */ = {
+		06352ED62003323E00D17DFD /* Modules_Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				06352ED11FFF9B6100D17DFD /* 项目配置模块 */,
-				06352ED01FFF9B5300D17DFD /* 网络请求模块 */,
-				06352ED21FFF9B8B00D17DFD /* 工具模块 */,
+				06352ED11FFF9B6100D17DFD /* Configuration_Basis */,
+				06352ED01FFF9B5300D17DFD /* Configuration_Network */,
+				06352ED21FFF9B8B00D17DFD /* Configuration_Tools */,
 			);
-			name = "基础模块";
+			name = Modules_Configuration;
 			sourceTree = "<group>";
 		};
-		06352ED72003324A00D17DFD /* 项目模块 */ = {
+		06352ED72003324A00D17DFD /* Modules_Project */ = {
 			isa = PBXGroup;
 			children = (
 				06352ED8200332A700D17DFD /* LSRouter+ExampleModule.h */,
 				06352ED9200332A700D17DFD /* LSRouter+ExampleModule.m */,
 			);
-			name = "项目模块";
+			name = Modules_Project;
+			sourceTree = "<group>";
+		};
+		06779B6E2005DFEC003115CB /* 外部资源 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "外部资源";
+			sourceTree = "<group>";
+		};
+		06779B6F2005E0F3003115CB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				069D5D0C1E680AFE004CEFF6 /* Main.storyboard */,
+				069D5D141E680AFE004CEFF6 /* Info.plist */,
+				069D5D041E680AFE004CEFF6 /* main.m */,
+				3DCB6D0A3A4D2A68DA35BD1C /* Pods */,
+				069D5D011E680AFE004CEFF6 /* Products */,
+				4B66BAE73A761F4782F7ECDE /* Frameworks */,
+			);
+			name = Others;
+			path = BaseProject;
 			sourceTree = "<group>";
 		};
 		068DBBB61E8A4A5800C3125C /* 模拟数据(plist格式文件) */ = {
@@ -144,9 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				069D5D021E680AFE004CEFF6 /* BaseProject */,
-				069D5D011E680AFE004CEFF6 /* Products */,
-				3DCB6D0A3A4D2A68DA35BD1C /* Pods */,
-				4B66BAE73A761F4782F7ECDE /* Frameworks */,
+				06779B6F2005E0F3003115CB /* Others */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,56 +175,39 @@
 				069D5D001E680AFE004CEFF6 /* BaseProject.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		069D5D021E680AFE004CEFF6 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D261E680BFD004CEFF6 /* 项目配置 */,
-				069D5D241E680BEC004CEFF6 /* 资源 */,
+				069D5D031E680AFE004CEFF6 /* Project_Configuration */,
+				069D5D241E680BEC004CEFF6 /* Project_Resources */,
 				0606DF0A1E824A5B00FE1D1E /* Modules_Interfaces */,
 				0606DF0B1E824A8100FE1D1E /* Modules */,
-				069D5D031E680AFE004CEFF6 /* Supporting Files */,
 			);
 			path = BaseProject;
 			sourceTree = "<group>";
 		};
-		069D5D031E680AFE004CEFF6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				06B847EA1E88FFA10052E69C /* StoryBoards */,
-				069D5D141E680AFE004CEFF6 /* Info.plist */,
-				069D5D041E680AFE004CEFF6 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		069D5D241E680BEC004CEFF6 /* 资源 */ = {
-			isa = PBXGroup;
-			children = (
-				068DBBB61E8A4A5800C3125C /* 模拟数据(plist格式文件) */,
-			);
-			name = "资源";
-			sourceTree = "<group>";
-		};
-		069D5D261E680BFD004CEFF6 /* 项目配置 */ = {
+		069D5D031E680AFE004CEFF6 /* Project_Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
 				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
-				06352E7F1FFF94D900D17DFD /* 图片 */,
+				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
 			);
-			name = "项目配置";
+			name = Project_Configuration;
 			sourceTree = "<group>";
 		};
-		06B847EA1E88FFA10052E69C /* StoryBoards */ = {
+		069D5D241E680BEC004CEFF6 /* Project_Resources */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
-				069D5D0C1E680AFE004CEFF6 /* Main.storyboard */,
+				06352E7F1FFF94D900D17DFD /* 图片 */,
+				06779B6E2005DFEC003115CB /* 外部资源 */,
+				068DBBB61E8A4A5800C3125C /* 模拟数据(plist格式文件) */,
 			);
-			name = StoryBoards;
+			name = Project_Resources;
 			sourceTree = "<group>";
 		};
 		3DCB6D0A3A4D2A68DA35BD1C /* Pods */ = {
@@ -215,6 +217,7 @@
 				E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */,
 			);
 			name = Pods;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4B66BAE73A761F4782F7ECDE /* Frameworks */ = {
@@ -223,6 +226,7 @@
 				FCE2B3690B221561293AE55F /* libPods-BaseProject.a */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +356,7 @@
 				06352ED51FFF9BAE00D17DFD /* LSRouter+AppDelegate.m in Sources */,
 				06352EDA200332A700D17DFD /* LSRouter+ExampleModule.m in Sources */,
 				06352E7E1FFF948400D17DFD /* LSRouter+TimeCategory.m in Sources */,
-				060CC9DC1F738EE000F112D5 /* LSRouter+Networking.m in Sources */,
+				060CC9DC1F738EE000F112D5 /* LSRouter+Network.m in Sources */,
 				06352E751FFF600900D17DFD /* LSRouter+Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

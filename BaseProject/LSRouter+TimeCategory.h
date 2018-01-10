@@ -1,9 +1,9 @@
 //
 //  LSRouter+TimeCategory.h
-//  Yizsuda
+//  BaseProject
 //
 //  Created by ArthurShuai on 2017/9/25.
-//  Copyright © 2017年 qusu. All rights reserved.
+//  Copyright © 2017年 ArthurShuai. All rights reserved.
 //
 //  文档名称：时间处理工具
 //  功能描述：时间处理工具，时间、时间戳、时间字符串相关转换

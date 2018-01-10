@@ -3,7 +3,7 @@
 //  Yizsuda
 //
 //  Created by ArthurShuai on 2017/9/25.
-//  Copyright © 2017年 qusu. All rights reserved.
+//  Copyright © 2017年 ArthurShuai. All rights reserved.
 //
 //  文档名称：AppDelegate配置
 //  功能描述：AppDelegate配置
