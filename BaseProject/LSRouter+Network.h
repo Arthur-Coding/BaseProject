@@ -15,13 +15,13 @@
 @interface LSRouter (Network)
 
 /**
- 网络请求
- */
-+ (AFHTTPSessionManager *)networkManager;
-
-/**
- 网络状态监控
- */
-+ (void)openNetworkMonitoring;
+// 网络请求
+// */
+//+ (AFHTTPSessionManager *)networkManager;
+//
+///**
+// 网络状态监控
+// */
+//+ (void)openNetworkMonitoring;
 
 @end

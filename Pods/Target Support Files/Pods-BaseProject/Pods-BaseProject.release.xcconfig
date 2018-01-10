@@ -1,9 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/CategoryPropertyDynamicSupport/ios" "${PODS_ROOT}/LSRootNavigationController/ios" "${PODS_ROOT}/LSRouter/ios"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CategoryPropertyDynamicSupport" "${PODS_ROOT}/Headers/Public/LSRootNavigationController" "${PODS_ROOT}/Headers/Public/LSRouter" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/SDWebImage"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/CategoryPropertyDynamicSupport" -isystem "${PODS_ROOT}/Headers/Public/LSRootNavigationController" -isystem "${PODS_ROOT}/Headers/Public/LSRouter" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"MJRefresh" -l"SDWebImage" -framework "CategoryPropertyDynamicSupport" -framework "CoreGraphics" -framework "ImageIO" -framework "LSRootNavigationController" -framework "LSRouter" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public"
+OTHER_LDFLAGS = $(inherited) -ObjC
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
