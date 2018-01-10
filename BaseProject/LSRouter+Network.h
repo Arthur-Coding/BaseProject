@@ -17,7 +17,7 @@
 /**
  网络请求
  */
-+ (AFHTTPSessionManager *)neManager;
++ (AFHTTPSessionManager *)networkManager;
 
 /**
  网络状态监控

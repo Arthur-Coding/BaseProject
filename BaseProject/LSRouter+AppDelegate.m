@@ -41,12 +41,6 @@
 
     // 支付配置
 //    [WXApi registerApp:WechatAPPKey];
-
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.view.backgroundColor = [UIColor redColor];
-    kAppDelegate.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    kAppDelegate.window.rootViewController = vc;
-    [kAppDelegate.window makeKeyAndVisible];
 }
 
 + (UIImage *)imageWithColor:(UIColor *)color{

@@ -75,12 +75,12 @@
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		06352E7F1FFF94D900D17DFD /* 图片 */ = {
+		06352E7F1FFF94D900D17DFD /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				069D5D0F1E680AFE004CEFF6 /* Assets.xcassets */,
 			);
-			name = "图片";
+			name = Images;
 			sourceTree = "<group>";
 		};
 		06352ED01FFF9B5300D17DFD /* Configuration_Network */ = {
@@ -133,11 +133,11 @@
 			name = Modules_Project;
 			sourceTree = "<group>";
 		};
-		06779B6E2005DFEC003115CB /* 外部资源 */ = {
+		06779B6E2005DFEC003115CB /* External */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "外部资源";
+			name = External;
 			sourceTree = "<group>";
 		};
 		06779B6F2005E0F3003115CB /* Others */ = {
@@ -154,11 +154,11 @@
 			path = BaseProject;
 			sourceTree = "<group>";
 		};
-		068DBBB61E8A4A5800C3125C /* 模拟数据(plist格式文件) */ = {
+		068DBBB61E8A4A5800C3125C /* SimulatedData(plist files) */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "模拟数据(plist格式文件)";
+			name = "SimulatedData(plist files)";
 			sourceTree = "<group>";
 		};
 		069D5CF71E680AFE004CEFF6 = {
@@ -203,9 +203,9 @@
 		069D5D241E680BEC004CEFF6 /* Project_Resources */ = {
 			isa = PBXGroup;
 			children = (
-				06352E7F1FFF94D900D17DFD /* 图片 */,
-				06779B6E2005DFEC003115CB /* 外部资源 */,
-				068DBBB61E8A4A5800C3125C /* 模拟数据(plist格式文件) */,
+				06352E7F1FFF94D900D17DFD /* Images */,
+				06779B6E2005DFEC003115CB /* External */,
+				068DBBB61E8A4A5800C3125C /* SimulatedData(plist files) */,
 			);
 			name = Project_Resources;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = qusu;
+				ORGANIZATIONNAME = ArthurShuai;
 				TargetAttributes = {
 					069D5CFF1E680AFE004CEFF6 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -491,7 +491,6 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BaseProject/LSRootNavigationController",
 					"$(PROJECT_DIR)/BaseProject",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -515,7 +514,6 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BaseProject/LSRootNavigationController",
 					"$(PROJECT_DIR)/BaseProject",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
