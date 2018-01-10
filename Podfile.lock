@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - CategoryPropertyDynamicSupport (1.0.0)
   - LSRootNavigationController (1.0.0)
-  - LSRouter (1.0.2)
+  - LSRouter (1.0.3)
   - MJRefresh (3.1.12)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
     :tag: 1.0.0
   LSRouter:
     :svn: svn://120.25.201.201/lib/applib/ios/LSRouter
-    :tag: 1.0.2
+    :tag: 1.0.3
 
 CHECKOUT OPTIONS:
   CategoryPropertyDynamicSupport:
@@ -50,16 +50,16 @@ CHECKOUT OPTIONS:
     :tag: 1.0.0
   LSRouter:
     :svn: svn://120.25.201.201/lib/applib/ios/LSRouter
-    :tag: 1.0.2
+    :tag: 1.0.3
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CategoryPropertyDynamicSupport: 32cc9cd9cf289d1fa82bba45d088010cdde9df61
   LSRootNavigationController: 961e9158e2222cf0648bf971c5f2927d13be2fe1
-  LSRouter: 51b79e4395889a53f6456fe804bc08adf65375cb
+  LSRouter: 61ca0a882acce2acf920046ad219e347e2e52cc0
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 02a8249bf542b712efd9c6c6aa7343a8edf59c17
+PODFILE CHECKSUM: 575ea2f14f2f26d39f5c90a92dec0f5c0a7e1d04
 
 COCOAPODS: 1.2.1.beta.1

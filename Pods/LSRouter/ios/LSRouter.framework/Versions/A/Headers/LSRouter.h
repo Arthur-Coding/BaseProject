@@ -52,6 +52,14 @@ typedef void(^LSInformationHandler)(id information);
  */
 + (BOOL)cacheModule:(id)object;
 
+/**
+ 释放组件
+
+ @param objectClass 组件类名
+ @return YES or NO
+ */
++ (BOOL)releaseModule:(NSString *)objectClass;
+
 /***********************************/
 
 /**

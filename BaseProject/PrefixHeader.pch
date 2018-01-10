@@ -9,24 +9,21 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#define USE_SimulateData YES // 是否使用模拟数据
-#define GetData_Array(plistName) [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]]
-#define GetData_Dictionary(plistName) [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]] 
-
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
-    #import "API.h" // app接口
-    #import "Public.h" // 公共常用宏配置,APPID配置等
-    #import "Operation.h" // 操作配置
-    #import <LSRouter/LSRouter.h>
-    #import <LSRootNavigationController/LSRootNavigationController.h>
-    #import "LSRouter+Account.h" // 账号处理
+    #import <LSRouter/LSRouter.h> // 模块路由管理器
+    #import <LSRootNavigationController/LSRootNavigationController.h> // 自定义导航栏控制器
+    #import "LSRouter+Interface.h" // 网络接口配置
+    #import "LSRouter+Foundation.h" // 基础配置
+    #import "LSRouter+Operation.h" // 快捷操作配置
+    #import "LSRouter+Networking.h" // 网络请求配置
 
-    #import "AFNetworking.h"
-    #import "SDWebImageHeader.h"
-    #import "MJRefresh.h"
+    #import "AFNetworking.h" // 网络请求第三方控件
+    #import "UIImageView+WebCache.h" // 网络图片加载第三方控件
+    #import "UIButton+WebCache.h" // 按钮网络图片加载第三方控件
+    #import "MJRefresh.h" // 列表刷新第三方控件
 #endif
 
 #endif /* PrefixHeader_pch */

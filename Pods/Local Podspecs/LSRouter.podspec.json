@@ -1,23 +1,21 @@
 {
   "name": "LSRouter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "Router iOS project component of management",
-  "description": "iOS项目组件路由管理器\nRouter iOS project component of management.",
-  "homepage": "https://github.com/Arthur-Coding/LSRouter",
   "license": "MIT",
   "authors": {
     "ArthurShuai": "zhixingui_liushuai@163com"
   },
+  "homepage": "https://github.com/Arthur-Coding/LSRouter",
+  "description": "iOS项目组件路由管理器Router iOS project component of management.",
+  "source": {
+    "svn": "svn://120.25.201.201/lib/applib/ios/LSRouter",
+    "tag": "1.0.3"
+  },
   "platforms": {
     "ios": "8.0"
   },
-  "source": {
-    "svn": "svn://120.25.201.201/lib/applib/ios/LSRouter/",
-    "tag": "1.0.2"
-  },
   "ios": {
-    "vendored_frameworks": "LSRouter.framework"
-  },
-  "frameworks": "LSRouter",
-  "requires_arc": true
+    "vendored_frameworks": "ios/LSRouter.framework"
+  }
 }

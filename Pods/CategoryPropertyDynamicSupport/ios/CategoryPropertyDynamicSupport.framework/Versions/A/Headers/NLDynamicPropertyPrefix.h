@@ -29,6 +29,6 @@
  *
  *  @return 前辍字符串
  */
-extern const char * _Nullable nl_dynamicPropertyPrefix();
+extern const char * _Nullable nl_dynamicPropertyPrefix(void);
 
 

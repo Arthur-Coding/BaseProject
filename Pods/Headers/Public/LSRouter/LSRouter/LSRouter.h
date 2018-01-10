@@ -1,1 +1,1 @@
-../../../../LSRouter/LSRouter.framework/Headers/LSRouter.h
+../../../../LSRouter/ios/LSRouter.framework/Versions/A/Headers/LSRouter.h
