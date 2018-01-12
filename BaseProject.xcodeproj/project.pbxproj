@@ -12,9 +12,9 @@
 		06352E7E1FFF948400D17DFD /* LSRouter+TimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */; };
 		06352ED51FFF9BAE00D17DFD /* LSRouter+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */; };
 		06352EDA200332A700D17DFD /* LSRouter+ExampleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352ED9200332A700D17DFD /* LSRouter+ExampleModule.m */; };
-		069AC451200613E2004E07FB /* CategoryPropertyDynamicSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069AC44E200613E2004E07FB /* CategoryPropertyDynamicSupport.framework */; };
-		069AC452200613E2004E07FB /* LSRootNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069AC44F200613E2004E07FB /* LSRootNavigationController.framework */; };
-		069AC453200613E2004E07FB /* LSRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069AC450200613E2004E07FB /* LSRouter.framework */; };
+		069AC457200617EC004E07FB /* LSRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069AC454200617EC004E07FB /* LSRouter.framework */; };
+		069AC458200617EC004E07FB /* LSRootNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069AC455200617EC004E07FB /* LSRootNavigationController.framework */; };
+		069AC459200617EC004E07FB /* CategoryPropertyDynamicSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069AC456200617EC004E07FB /* CategoryPropertyDynamicSupport.framework */; };
 		069D5D051E680AFE004CEFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D041E680AFE004CEFF6 /* main.m */; };
 		069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D071E680AFE004CEFF6 /* AppDelegate.m */; };
 		069D5D0E1E680AFE004CEFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0C1E680AFE004CEFF6 /* Main.storyboard */; };
@@ -38,9 +38,9 @@
 		06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+AppDelegate.m"; sourceTree = "<group>"; };
 		06352ED8200332A700D17DFD /* LSRouter+ExampleModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+ExampleModule.h"; sourceTree = "<group>"; };
 		06352ED9200332A700D17DFD /* LSRouter+ExampleModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+ExampleModule.m"; sourceTree = "<group>"; };
-		069AC44E200613E2004E07FB /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
-		069AC44F200613E2004E07FB /* LSRootNavigationController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRootNavigationController.framework; sourceTree = "<group>"; };
-		069AC450200613E2004E07FB /* LSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LSRouter.framework; sourceTree = "<group>"; };
+		069AC454200617EC004E07FB /* LSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LSRouter.framework; path = Frameworks/LSRouter.framework; sourceTree = "<group>"; };
+		069AC455200617EC004E07FB /* LSRootNavigationController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LSRootNavigationController.framework; path = Frameworks/LSRootNavigationController.framework; sourceTree = "<group>"; };
+		069AC456200617EC004E07FB /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CategoryPropertyDynamicSupport.framework; path = Frameworks/CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
 		069D5D001E680AFE004CEFF6 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069D5D041E680AFE004CEFF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		069D5D061E680AFE004CEFF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,24 +62,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069AC457200617EC004E07FB /* LSRouter.framework in Frameworks */,
 				94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */,
-				069AC451200613E2004E07FB /* CategoryPropertyDynamicSupport.framework in Frameworks */,
-				069AC453200613E2004E07FB /* LSRouter.framework in Frameworks */,
 				346BCE87929053B6564B02C7 /* libPods-BaseProject.a in Frameworks */,
-				069AC452200613E2004E07FB /* LSRootNavigationController.framework in Frameworks */,
+				069AC458200617EC004E07FB /* LSRootNavigationController.framework in Frameworks */,
+				069AC459200617EC004E07FB /* CategoryPropertyDynamicSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0606DF0A1E824A5B00FE1D1E /* Modules_Interfaces */ = {
+		0606DF0A1E824A5B00FE1D1E /* Module_Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				06352ED62003323E00D17DFD /* Modules_Configuration */,
+				06352ED62003323E00D17DFD /* Module_Configuration */,
 				06352ED72003324A00D17DFD /* Modules_Project */,
 			);
-			name = Modules_Interfaces;
+			name = Module_Interfaces;
 			sourceTree = "<group>";
 		};
 		0606DF0B1E824A8100FE1D1E /* Modules */ = {
@@ -128,14 +128,14 @@
 			name = Configuration_Tools;
 			sourceTree = "<group>";
 		};
-		06352ED62003323E00D17DFD /* Modules_Configuration */ = {
+		06352ED62003323E00D17DFD /* Module_Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				06352ED11FFF9B6100D17DFD /* Configuration_Basis */,
 				06352ED01FFF9B5300D17DFD /* Configuration_Network */,
 				06352ED21FFF9B8B00D17DFD /* Configuration_Tools */,
 			);
-			name = Modules_Configuration;
+			name = Module_Configuration;
 			sourceTree = "<group>";
 		};
 		06352ED72003324A00D17DFD /* Modules_Project */ = {
@@ -199,7 +199,7 @@
 			children = (
 				069D5D031E680AFE004CEFF6 /* Project_Configuration */,
 				069D5D241E680BEC004CEFF6 /* Project_Resources */,
-				0606DF0A1E824A5B00FE1D1E /* Modules_Interfaces */,
+				0606DF0A1E824A5B00FE1D1E /* Module_Interfaces */,
 				0606DF0B1E824A8100FE1D1E /* Modules */,
 			);
 			path = BaseProject;
@@ -258,9 +258,9 @@
 			isa = PBXGroup;
 			children = (
 				D78BE7119287BACC058FEA2B /* libPods-BaseProject.a */,
-				069AC450200613E2004E07FB /* LSRouter.framework */,
-				069AC44F200613E2004E07FB /* LSRootNavigationController.framework */,
-				069AC44E200613E2004E07FB /* CategoryPropertyDynamicSupport.framework */,
+				069AC454200617EC004E07FB /* LSRouter.framework */,
+				069AC455200617EC004E07FB /* LSRootNavigationController.framework */,
+				069AC456200617EC004E07FB /* CategoryPropertyDynamicSupport.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -529,6 +529,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
@@ -553,6 +554,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
