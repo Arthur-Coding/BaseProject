@@ -31,7 +31,7 @@
 //    [IQKeyboardManager sharedManager].toolbarDoneBarButtonItemText = @"完成";
 
     // 开启全局网络监控
-    [LSRouter openNetworkMonitoring];
+//    [LSRouter openNetworkMonitoring];
 
     // 远程推送配置
 //    [LSRouter registerUserNotification];

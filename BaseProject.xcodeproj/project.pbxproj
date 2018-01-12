@@ -21,7 +21,6 @@
 		069D5D101E680AFE004CEFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D0F1E680AFE004CEFF6 /* Assets.xcassets */; };
 		069D5D131E680AFE004CEFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */; };
 		346BCE87929053B6564B02C7 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D78BE7119287BACC058FEA2B /* libPods-BaseProject.a */; };
-		94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE2B3690B221561293AE55F /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +53,6 @@
 		73BF6161F6E18BF412288C91 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D78BE7119287BACC058FEA2B /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
-		FCE2B3690B221561293AE55F /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				069AC457200617EC004E07FB /* LSRouter.framework in Frameworks */,
-				94115A6DFDA71A598FDA713A /* libPods-BaseProject.a in Frameworks */,
 				346BCE87929053B6564B02C7 /* libPods-BaseProject.a in Frameworks */,
 				069AC458200617EC004E07FB /* LSRootNavigationController.framework in Frameworks */,
 				069AC459200617EC004E07FB /* CategoryPropertyDynamicSupport.framework in Frameworks */,
@@ -162,7 +159,6 @@
 				069D5D041E680AFE004CEFF6 /* main.m */,
 				3DCB6D0A3A4D2A68DA35BD1C /* Pods */,
 				069D5D011E680AFE004CEFF6 /* Products */,
-				4B66BAE73A761F4782F7ECDE /* Frameworks */,
 			);
 			name = Others;
 			path = BaseProject;
@@ -233,15 +229,6 @@
 				E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */,
 			);
 			name = Pods;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		4B66BAE73A761F4782F7ECDE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FCE2B3690B221561293AE55F /* libPods-BaseProject.a */,
-			);
-			name = Frameworks;
 			path = ..;
 			sourceTree = "<group>";
 		};
