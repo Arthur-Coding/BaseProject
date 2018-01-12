@@ -23,12 +23,6 @@ def changeDirName(path, dirnames):
         os.rename(dirname, newdirname)
 
 for (path, filenames, dirnames) in os.walk(filePath):
-    for filename in filenames:
-        if productName in filename:
-            os.chdir(path)
-            newfilename = filename.replace(productName, newProductName)
-            os.rename(filename, newfilename)
-
     for dirname in dirnames:
         if dirname != 'configure_projectName.py':
             # Change the project name to the new project name
@@ -43,6 +37,13 @@ for (path, filenames, dirnames) in os.walk(filePath):
                 changeDirName(path, dirnames)
             except IOError:
                 changeDirName(path, dirnames)
+
+for (path, filenames, dirnames) in os.walk(filePath):
+    for filename in filenames:
+        if productName in filename:
+            os.chdir(path)
+            newfilename = filename.replace(productName, newProductName)
+            os.rename(filename, newfilename)
 
 # Delete configure_projectName.py and README.md
 os.remove(os.path.join(filePath, 'README.md'))
