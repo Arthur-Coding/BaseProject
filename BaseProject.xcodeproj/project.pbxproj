@@ -30,13 +30,16 @@
 		06352E731FFF600900D17DFD /* LSRouter+Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Operation.h"; sourceTree = "<group>"; };
 		06352E741FFF600900D17DFD /* LSRouter+Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Operation.m"; sourceTree = "<group>"; };
 		06352E7A1FFF675600D17DFD /* LSRouter+Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Foundation.h"; sourceTree = "<group>"; };
-		06352E7B1FFF6CE800D17DFD /* LSRouter+Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Interface.h"; sourceTree = "<group>"; };
 		06352E7C1FFF948400D17DFD /* LSRouter+TimeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+TimeCategory.h"; sourceTree = "<group>"; };
 		06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+TimeCategory.m"; sourceTree = "<group>"; };
 		06352ED31FFF9BAD00D17DFD /* LSRouter+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+AppDelegate.h"; sourceTree = "<group>"; };
 		06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+AppDelegate.m"; sourceTree = "<group>"; };
 		06352ED8200332A700D17DFD /* LSRouter+ExampleModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+ExampleModule.h"; sourceTree = "<group>"; };
 		06352ED9200332A700D17DFD /* LSRouter+ExampleModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+ExampleModule.m"; sourceTree = "<group>"; };
+		064E678720118FA900DB81D9 /* Module_Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Tools.h; sourceTree = "<group>"; };
+		064E678A2011921A00DB81D9 /* Module_Initialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Initialization.h; sourceTree = "<group>"; };
+		064E678B201192A300DB81D9 /* LSRouter+API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+API.h"; sourceTree = "<group>"; };
+		064E678C2011932300DB81D9 /* Module_Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Project.h; sourceTree = "<group>"; };
 		069AC454200617EC004E07FB /* LSRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LSRouter.framework; path = Frameworks/LSRouter.framework; sourceTree = "<group>"; };
 		069AC455200617EC004E07FB /* LSRootNavigationController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LSRootNavigationController.framework; path = Frameworks/LSRootNavigationController.framework; sourceTree = "<group>"; };
 		069AC456200617EC004E07FB /* CategoryPropertyDynamicSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CategoryPropertyDynamicSupport.framework; path = Frameworks/CategoryPropertyDynamicSupport.framework; sourceTree = "<group>"; };
@@ -49,10 +52,8 @@
 		069D5D121E680AFE004CEFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069D5D141E680AFE004CEFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50296FAB8E150715191A49EF /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
-		5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		73BF6161F6E18BF412288C91 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D78BE7119287BACC058FEA2B /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +74,9 @@
 		0606DF0A1E824A5B00FE1D1E /* Module_Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				06352ED62003323E00D17DFD /* Module_Configuration */,
-				06352ED72003324A00D17DFD /* Modules_Project */,
+				064E678A2011921A00DB81D9 /* Module_Initialization.h */,
+				064E678720118FA900DB81D9 /* Module_Tools.h */,
+				064E678C2011932300DB81D9 /* Module_Project.h */,
 			);
 			name = Module_Interfaces;
 			sourceTree = "<group>";
@@ -82,29 +84,31 @@
 		0606DF0B1E824A8100FE1D1E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				064E67832011897700DB81D9 /* Example */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		06352E7F1FFF94D900D17DFD /* Images */ = {
+		06352E7F1FFF94D900D17DFD /* Project_Images */ = {
 			isa = PBXGroup;
 			children = (
 				069D5D0F1E680AFE004CEFF6 /* Assets.xcassets */,
+				064E6782201187D900DB81D9 /* Images */,
 			);
-			name = Images;
+			name = Project_Images;
 			sourceTree = "<group>";
 		};
-		06352ED01FFF9B5300D17DFD /* Configuration_Network */ = {
+		06352ED01FFF9B5300D17DFD /* Initialization_Network */ = {
 			isa = PBXGroup;
 			children = (
-				06352E7B1FFF6CE800D17DFD /* LSRouter+Interface.h */,
+				064E678B201192A300DB81D9 /* LSRouter+API.h */,
 				060CC9DA1F738EE000F112D5 /* LSRouter+Network.h */,
 				060CC9DB1F738EE000F112D5 /* LSRouter+Network.m */,
 			);
-			name = Configuration_Network;
+			name = Initialization_Network;
 			sourceTree = "<group>";
 		};
-		06352ED11FFF9B6100D17DFD /* Configuration_Basis */ = {
+		06352ED11FFF9B6100D17DFD /* Initialization_System */ = {
 			isa = PBXGroup;
 			children = (
 				06352ED31FFF9BAD00D17DFD /* LSRouter+AppDelegate.h */,
@@ -113,42 +117,68 @@
 				06352E731FFF600900D17DFD /* LSRouter+Operation.h */,
 				06352E741FFF600900D17DFD /* LSRouter+Operation.m */,
 			);
-			name = Configuration_Basis;
+			name = Initialization_System;
 			sourceTree = "<group>";
 		};
-		06352ED21FFF9B8B00D17DFD /* Configuration_Tools */ = {
+		06352ED62003323E00D17DFD /* Module_Initialization */ = {
 			isa = PBXGroup;
 			children = (
-				06352E7C1FFF948400D17DFD /* LSRouter+TimeCategory.h */,
-				06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */,
+				06352ED11FFF9B6100D17DFD /* Initialization_System */,
+				06352ED01FFF9B5300D17DFD /* Initialization_Network */,
+				064E678820118FF100DB81D9 /* Initialization_Tools */,
 			);
-			name = Configuration_Tools;
+			name = Module_Initialization;
 			sourceTree = "<group>";
 		};
-		06352ED62003323E00D17DFD /* Module_Configuration */ = {
+		064E67812011873100DB81D9 /* Project_Initialization */ = {
 			isa = PBXGroup;
 			children = (
-				06352ED11FFF9B6100D17DFD /* Configuration_Basis */,
-				06352ED01FFF9B5300D17DFD /* Configuration_Network */,
-				06352ED21FFF9B8B00D17DFD /* Configuration_Tools */,
+				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
+				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
+				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
+				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
 			);
-			name = Module_Configuration;
+			name = Project_Initialization;
 			sourceTree = "<group>";
 		};
-		06352ED72003324A00D17DFD /* Modules_Project */ = {
+		064E6782201187D900DB81D9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		064E67832011897700DB81D9 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				064E6784201189AB00DB81D9 /* Module_Interfaces */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		064E6784201189AB00DB81D9 /* Module_Interfaces */ = {
 			isa = PBXGroup;
 			children = (
 				06352ED8200332A700D17DFD /* LSRouter+ExampleModule.h */,
 				06352ED9200332A700D17DFD /* LSRouter+ExampleModule.m */,
 			);
-			name = Modules_Project;
+			name = Module_Interfaces;
 			sourceTree = "<group>";
 		};
-		06779B6E2005DFEC003115CB /* External */ = {
+		064E678820118FF100DB81D9 /* Initialization_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				06352E7C1FFF948400D17DFD /* LSRouter+TimeCategory.h */,
+				06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */,
+			);
+			name = Initialization_Tools;
+			sourceTree = "<group>";
+		};
+		06779B6E2005DFEC003115CB /* Project_Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = External;
+			name = Project_Resources;
 			sourceTree = "<group>";
 		};
 		06779B6F2005E0F3003115CB /* Others */ = {
@@ -157,18 +187,17 @@
 				069D5D0C1E680AFE004CEFF6 /* Main.storyboard */,
 				069D5D141E680AFE004CEFF6 /* Info.plist */,
 				069D5D041E680AFE004CEFF6 /* main.m */,
-				3DCB6D0A3A4D2A68DA35BD1C /* Pods */,
 				069D5D011E680AFE004CEFF6 /* Products */,
 			);
 			name = Others;
 			path = BaseProject;
 			sourceTree = "<group>";
 		};
-		068DBBB61E8A4A5800C3125C /* SimulatedData(plist files) */ = {
+		068DBBB61E8A4A5800C3125C /* Project_SimulatedData */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "SimulatedData(plist files)";
+			name = Project_SimulatedData;
 			sourceTree = "<group>";
 		};
 		069D5CF71E680AFE004CEFF6 = {
@@ -194,7 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				069D5D031E680AFE004CEFF6 /* Project_Configuration */,
-				069D5D241E680BEC004CEFF6 /* Project_Resources */,
+				06352ED62003323E00D17DFD /* Module_Initialization */,
 				0606DF0A1E824A5B00FE1D1E /* Module_Interfaces */,
 				0606DF0B1E824A8100FE1D1E /* Modules */,
 			);
@@ -204,32 +233,12 @@
 		069D5D031E680AFE004CEFF6 /* Project_Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
-				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
-				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
-				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
+				064E67812011873100DB81D9 /* Project_Initialization */,
+				06352E7F1FFF94D900D17DFD /* Project_Images */,
+				06779B6E2005DFEC003115CB /* Project_Resources */,
+				068DBBB61E8A4A5800C3125C /* Project_SimulatedData */,
 			);
 			name = Project_Configuration;
-			sourceTree = "<group>";
-		};
-		069D5D241E680BEC004CEFF6 /* Project_Resources */ = {
-			isa = PBXGroup;
-			children = (
-				06352E7F1FFF94D900D17DFD /* Images */,
-				06779B6E2005DFEC003115CB /* External */,
-				068DBBB61E8A4A5800C3125C /* SimulatedData(plist files) */,
-			);
-			name = Project_Resources;
-			sourceTree = "<group>";
-		};
-		3DCB6D0A3A4D2A68DA35BD1C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */,
-				E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */,
-			);
-			name = Pods;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		5CBCDDC726229E4BCB3DED67 /* Pods */ = {
@@ -508,7 +517,6 @@
 		};
 		069D5D181E680AFE004CEFF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F8D906713E7DD3101188D57 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -533,7 +541,6 @@
 		};
 		069D5D191E680AFE004CEFF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E945513E51E92B9AE8105267 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";

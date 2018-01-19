@@ -10,15 +10,16 @@
 #define PrefixHeader_pch
 
 #ifdef __OBJC__
+
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
     #import <LSRouter/LSRouter.h> // 模块路由管理器
     #import <LSRootNavigationController/LSRootNavigationController.h> // 自定义导航栏控制器
-    #import "LSRouter+Interface.h" // 网络接口配置
-    #import "LSRouter+Foundation.h" // 基础配置
-    #import "LSRouter+Operation.h" // 快捷操作配置
-    #import "LSRouter+Network.h" // 网络请求配置
+
+    #import "Module_Initialization.h" // 初始化组件接口
+    #import "Module_Tools.h" // 工具模块接口
+    #import "Module_Project.h" // 项目模块接口
 
 #endif
 
