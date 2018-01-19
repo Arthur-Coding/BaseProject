@@ -132,7 +132,6 @@
 				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
 				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
-				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
 			);
 			name = Project_Initialization;
 			sourceTree = "<group>";
@@ -151,6 +150,14 @@
 				06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */,
 			);
 			name = Initialization_Tools;
+			sourceTree = "<group>";
+		};
+		064E678F2011BB6700DB81D9 /* Project_Launch */ = {
+			isa = PBXGroup;
+			children = (
+				069D5D111E680AFE004CEFF6 /* LaunchScreen.storyboard */,
+			);
+			name = Project_Launch;
 			sourceTree = "<group>";
 		};
 		06779B6E2005DFEC003115CB /* Project_Resources */ = {
@@ -213,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				064E67812011873100DB81D9 /* Project_Initialization */,
+				064E678F2011BB6700DB81D9 /* Project_Launch */,
 				06352E7F1FFF94D900D17DFD /* Project_Images */,
 				06779B6E2005DFEC003115CB /* Project_Resources */,
 				068DBBB61E8A4A5800C3125C /* Project_SimulatedData */,
