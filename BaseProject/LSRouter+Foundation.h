@@ -62,9 +62,9 @@ static BOOL USE_SIMULATE = NO;
  颜色生成器
 
  @param rgbValue 16进制rgbValue e.g. 0xffffff
- @param alpha 透明度 0~1
+ @param alphaValue 透明度 0~1
  */
-#define ColorWithValue(rgbValue,alpha) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alpha]
+#define ColorWithValue(rgbValue,alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alphaValue]
 
 /**
  颜色生成器2
