@@ -22,7 +22,7 @@ void alert2(UIViewController *obj,NSString *mes,alertAction confirmAction, alert
 {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:mes preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *alertAction1 = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:confirmAction];
-    UIAlertAction *alertAction2 = [UIAlertAction actionWithTitle:@"" style:UIAlertActionStyleCancel handler:cancelAction];
+    UIAlertAction *alertAction2 = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:cancelAction];
     [alert addAction:alertAction1];
     [alert addAction:alertAction2];
     [obj presentViewController:alert animated:YES completion:nil];
@@ -32,7 +32,7 @@ void alert3(UIViewController *obj, NSString *title,NSString *mes, alertAction co
 {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:mes preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *alertAction1 = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:confirmAction];
-    UIAlertAction *alertAction2 = [UIAlertAction actionWithTitle:@"" style:UIAlertActionStyleCancel handler:cancelAction];
+    UIAlertAction *alertAction2 = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:cancelAction];
     [alert addAction:alertAction1];
     [alert addAction:alertAction2];
     [obj presentViewController:alert animated:YES completion:nil];
