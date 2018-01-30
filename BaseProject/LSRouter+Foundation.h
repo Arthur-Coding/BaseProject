@@ -21,7 +21,7 @@ static NSString * const AppleID = @"";
 /**
  是否使用模拟数据
  */
-static BOOL USE_SIMULATE = NO;
+static BOOL USE_SIMULATE = YES;
 /**
  获取plist文件模拟数据
  */

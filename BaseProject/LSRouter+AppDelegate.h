@@ -9,17 +9,10 @@
 //  功能描述：AppDelegate配置
 
 #import <LSRouter/LSRouter.h>
-//#import <AlipaySDK/AlipaySDK.h>
-//#import "WXApi.h"
 
 @interface LSRouter (AppDelegate)
 
 + (void)app:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
-
-#pragma mark - 友盟分享和支付相关
-//+ (BOOL)app:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
-//+ (BOOL)app:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options;
-//+ (BOOL)app:(UIApplication *)application handleOpenURL:(NSURL *)url;
 
 #pragma mark - 通知相关配置
 /** 远程通知注册成功委托 */

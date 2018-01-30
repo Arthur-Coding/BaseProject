@@ -11,7 +11,4 @@
 #ifndef Module_Project_h
 #define Module_Project_h
 
-// e.g.
-#import "LSRouter+ExampleModule.h"
-
 #endif /* Module_Project_h */
