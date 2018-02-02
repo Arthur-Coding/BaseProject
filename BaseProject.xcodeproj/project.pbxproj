@@ -107,6 +107,8 @@
 		06352ED11FFF9B6100D17DFD /* Initialization_System */ = {
 			isa = PBXGroup;
 			children = (
+				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
+				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 				06352ED31FFF9BAD00D17DFD /* LSRouter+AppDelegate.h */,
 				06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */,
 				06352E7A1FFF675600D17DFD /* LSRouter+Foundation.h */,
@@ -129,8 +131,6 @@
 		064E67812011873100DB81D9 /* Project_Initialization */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
-				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
 			);
 			name = Project_Initialization;
