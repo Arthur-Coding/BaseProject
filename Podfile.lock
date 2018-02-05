@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: 25d8bf9ee638f31d46b5838ef9bc4d25b3fba474
+PODS:
+  - CategoryPropertyDynamicSupport (1.1.2)
+  - LSRootNavigationController (1.1.2)
+  - LSRouter (1.1.2)
 
-COCOAPODS: 1.2.1.beta.1
+DEPENDENCIES:
+  - CategoryPropertyDynamicSupport
+  - LSRootNavigationController
+  - LSRouter
+
+SPEC CHECKSUMS:
+  CategoryPropertyDynamicSupport: b0eb3057217ba75492ab778552337aaf537ab52d
+  LSRootNavigationController: 2eb7f0cd6666b14c32a6e4f5fd2259786e38bdc0
+  LSRouter: e70fe5bb8e7e80ddcb1e267388eb392ce19aee62
+
+PODFILE CHECKSUM: a651f27a7c0716dcf63153798670f6b90f1b77e0
+
+COCOAPODS: 1.4.0
