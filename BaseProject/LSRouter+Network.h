@@ -10,7 +10,7 @@
 
 #import <LSRouter/LSRouter.h>
 
-@class AFHTTPSessionManager;
+// @class AFHTTPSessionManager;
 
 @interface LSRouter (Network)
 
