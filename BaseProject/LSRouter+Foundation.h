@@ -72,18 +72,18 @@ static BOOL USE_SIMULATE = YES;
 #define ColorWithRGB(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 
 /**
- 当前应用版本
+ 当前APP应用版本
  */
 #define APP_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 
 /**
  当前手机系统版本
  */
-#define SYSTEM_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+#define IPHONE_SYSTEM_VERSION [[UIDevice currentDevice] systemVersion]
 
 /**
  当前手机系统语言
  */
-#define SYSTEM_LANGUAGE [NSLocale preferredLanguages].firstObject
+#define IPHONE_SYSTEM_LANGUAGE [NSLocale preferredLanguages].firstObject
 
 #endif /* LSRouter_Foundation_h */
