@@ -170,13 +170,6 @@
 			path = BaseProject;
 			sourceTree = "<group>";
 		};
-		068DBBB61E8A4A5800C3125C /* Project_SimulatedData */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Project_SimulatedData;
-			sourceTree = "<group>";
-		};
 		069D5CF71E680AFE004CEFF6 = {
 			isa = PBXGroup;
 			children = (
@@ -214,7 +207,6 @@
 				064E678F2011BB6700DB81D9 /* Project_Launch */,
 				06352E7F1FFF94D900D17DFD /* Project_Images */,
 				06779B6E2005DFEC003115CB /* Project_Resources */,
-				068DBBB61E8A4A5800C3125C /* Project_SimulatedData */,
 			);
 			name = Project_Configuration;
 			sourceTree = "<group>";
