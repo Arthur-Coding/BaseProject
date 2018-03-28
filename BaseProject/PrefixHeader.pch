@@ -17,8 +17,9 @@
     #import <LSRouter/LSRouter.h> // 模块路由管理器
     #import <LSRootNavigationController/LSRootNavigationController.h> // 自定义导航栏控制器
 
+    #import "AppDelegate.h"
+
     #import "Module_Initialization.h" // 初始化组件接口
-    #import "Module_Tools.h" // 工具模块接口
     #import "Module_Project.h" // 项目模块接口
 
 #endif

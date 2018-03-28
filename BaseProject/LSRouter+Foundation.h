@@ -11,8 +11,6 @@
 #ifndef LSRouter_Foundation_h
 #define LSRouter_Foundation_h
 
-#import "AppDelegate.h"
-
 /**
  应用Apple ID
  */

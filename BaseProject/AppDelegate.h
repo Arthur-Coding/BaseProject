@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSRouter+AppDelegate.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

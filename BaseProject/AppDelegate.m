@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "LSRouter+AppDelegate.h"
 
 @interface AppDelegate ()
 

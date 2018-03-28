@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		060CC9DC1F738EE000F112D5 /* LSRouter+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 060CC9DB1F738EE000F112D5 /* LSRouter+Network.m */; };
-		06352E751FFF600900D17DFD /* LSRouter+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352E741FFF600900D17DFD /* LSRouter+Operation.m */; };
-		06352E7E1FFF948400D17DFD /* LSRouter+TimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */; };
 		06352ED51FFF9BAE00D17DFD /* LSRouter+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */; };
 		069D5D051E680AFE004CEFF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D041E680AFE004CEFF6 /* main.m */; };
 		069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069D5D071E680AFE004CEFF6 /* AppDelegate.m */; };
@@ -23,14 +21,9 @@
 		060CC9DA1F738EE000F112D5 /* LSRouter+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Network.h"; sourceTree = "<group>"; };
 		060CC9DB1F738EE000F112D5 /* LSRouter+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Network.m"; sourceTree = "<group>"; };
 		062FA8231E7633B000B84E45 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		06352E731FFF600900D17DFD /* LSRouter+Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Operation.h"; sourceTree = "<group>"; };
-		06352E741FFF600900D17DFD /* LSRouter+Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+Operation.m"; sourceTree = "<group>"; };
 		06352E7A1FFF675600D17DFD /* LSRouter+Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+Foundation.h"; sourceTree = "<group>"; };
-		06352E7C1FFF948400D17DFD /* LSRouter+TimeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+TimeCategory.h"; sourceTree = "<group>"; };
-		06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+TimeCategory.m"; sourceTree = "<group>"; };
 		06352ED31FFF9BAD00D17DFD /* LSRouter+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSRouter+AppDelegate.h"; sourceTree = "<group>"; };
 		06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LSRouter+AppDelegate.m"; sourceTree = "<group>"; };
-		064E678720118FA900DB81D9 /* Module_Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Tools.h; sourceTree = "<group>"; };
 		064E678A2011921A00DB81D9 /* Module_Initialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Initialization.h; sourceTree = "<group>"; };
 		064E678B201192A300DB81D9 /* LSRouter+API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSRouter+API.h"; sourceTree = "<group>"; };
 		064E678C2011932300DB81D9 /* Module_Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Project.h; sourceTree = "<group>"; };
@@ -63,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				064E678A2011921A00DB81D9 /* Module_Initialization.h */,
-				064E678720118FA900DB81D9 /* Module_Tools.h */,
 				064E678C2011932300DB81D9 /* Module_Project.h */,
 			);
 			name = Module_Interfaces;
@@ -98,13 +90,9 @@
 		06352ED11FFF9B6100D17DFD /* Initialization_System */ = {
 			isa = PBXGroup;
 			children = (
-				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
-				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 				06352ED31FFF9BAD00D17DFD /* LSRouter+AppDelegate.h */,
 				06352ED41FFF9BAE00D17DFD /* LSRouter+AppDelegate.m */,
 				06352E7A1FFF675600D17DFD /* LSRouter+Foundation.h */,
-				06352E731FFF600900D17DFD /* LSRouter+Operation.h */,
-				06352E741FFF600900D17DFD /* LSRouter+Operation.m */,
 			);
 			name = Initialization_System;
 			sourceTree = "<group>";
@@ -114,7 +102,6 @@
 			children = (
 				06352ED11FFF9B6100D17DFD /* Initialization_System */,
 				06352ED01FFF9B5300D17DFD /* Initialization_Network */,
-				064E678820118FF100DB81D9 /* Initialization_Tools */,
 			);
 			name = Module_Initialization;
 			sourceTree = "<group>";
@@ -123,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				062FA8231E7633B000B84E45 /* PrefixHeader.pch */,
+				069D5D061E680AFE004CEFF6 /* AppDelegate.h */,
+				069D5D071E680AFE004CEFF6 /* AppDelegate.m */,
 			);
 			name = Project_Initialization;
 			sourceTree = "<group>";
@@ -132,15 +121,6 @@
 			children = (
 			);
 			name = Images;
-			sourceTree = "<group>";
-		};
-		064E678820118FF100DB81D9 /* Initialization_Tools */ = {
-			isa = PBXGroup;
-			children = (
-				06352E7C1FFF948400D17DFD /* LSRouter+TimeCategory.h */,
-				06352E7D1FFF948400D17DFD /* LSRouter+TimeCategory.m */,
-			);
-			name = Initialization_Tools;
 			sourceTree = "<group>";
 		};
 		064E678F2011BB6700DB81D9 /* Project_Launch */ = {
@@ -356,9 +336,7 @@
 				069D5D081E680AFE004CEFF6 /* AppDelegate.m in Sources */,
 				069D5D051E680AFE004CEFF6 /* main.m in Sources */,
 				06352ED51FFF9BAE00D17DFD /* LSRouter+AppDelegate.m in Sources */,
-				06352E7E1FFF948400D17DFD /* LSRouter+TimeCategory.m in Sources */,
 				060CC9DC1F738EE000F112D5 /* LSRouter+Network.m in Sources */,
-				06352E751FFF600900D17DFD /* LSRouter+Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

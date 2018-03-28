@@ -13,7 +13,6 @@
 
 #import "LSRouter+API.h" // 网络接口配置
 #import "LSRouter+Foundation.h" // 基础配置
-#import "LSRouter+Operation.h" // 快捷操作配置
 #import "LSRouter+Network.h" // 网络请求配置
 
 #endif /* Module_Initialization_h */

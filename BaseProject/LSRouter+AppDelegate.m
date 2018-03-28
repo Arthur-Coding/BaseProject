@@ -16,12 +16,6 @@
     [UITableView appearance].tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, CGFLOAT_MIN)];
     [UITableView appearance].tableFooterView = [[UIView alloc] init];
 
-    // 开启全局网络监控
-//    [LSRouter openNetworkMonitoring];
-
-    // 远程推送配置
-//    [LSRouter registerUserNotification];
-
 }
 
 #pragma mark - 通知相关配置
@@ -38,8 +32,8 @@
 }
 + (void)app:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
-//    NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
-//    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
 }
 + (void)app:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
 {

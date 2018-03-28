@@ -9,8 +9,15 @@
 //  功能描述：AppDelegate配置
 
 #import <LSRouter/LSRouter.h>
+#import <CategoryPropertyDynamicSupport/NLDynamicPropertyPrefix.h>
+#import <CategoryPropertyDynamicSupport/NSObject+nl_dynamicPropertySupport.h>
+
+// 所有类型文件中的属性均加上前缀LS_，同时在.m文件中@dynamic，不必使用runtime赋值
+DynamicPropertySetPrefix("LS_")
 
 @interface LSRouter (AppDelegate)
+
++ (void)test;
 
 + (void)app:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 
