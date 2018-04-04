@@ -8,6 +8,9 @@
 
 #import "LSRouter+AppDelegate.h"
 
+// 所有类型文件中的属性均加上前缀LS_，同时在.m文件中@dynamic，不必使用runtime赋值
+DynamicPropertySetPrefix("LS_")
+
 @implementation LSRouter (AppDelegate)
 
 + (void)app:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
