@@ -1,7 +1,7 @@
 PODS:
   - CategoryPropertyDynamicSupport (1.1.2)
   - LSRootNavigationController (1.1.2)
-  - LSRouter (1.1.2)
+  - LSRouter (2.0)
 
 DEPENDENCIES:
   - CategoryPropertyDynamicSupport
@@ -11,7 +11,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   CategoryPropertyDynamicSupport: b0eb3057217ba75492ab778552337aaf537ab52d
   LSRootNavigationController: 2eb7f0cd6666b14c32a6e4f5fd2259786e38bdc0
-  LSRouter: e70fe5bb8e7e80ddcb1e267388eb392ce19aee62
+  LSRouter: 37ae9d4abed7abe655538e4b4a4db7efbc46fab5
 
 PODFILE CHECKSUM: 6cd5bddc816fa5e3b58ffe95697f71dd132a610b
 

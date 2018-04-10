@@ -44,15 +44,6 @@ typedef void(^LSInformationHandler)(id information);
 + (void)openModule:(NSString *)objectClass action:(NSString *)actionName params:(id)params perform:(LSRouterHandler)handler;
 
 /**
- 缓存组件
- * 实际使用时，开发人员不必调用，架构设计中已将所有组件动态缓存
-
- @param object 组件
- @return YES or NO
- */
-+ (BOOL)cacheModule:(id)object;
-
-/**
  释放组件
 
  @param objectClass 组件类名
